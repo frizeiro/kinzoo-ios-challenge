@@ -80,7 +80,7 @@ extension ServerClient {
         var urlRequest = URLRequest(url: URL(string: requestPath(request))!)
         urlRequest.httpMethod = request.method.rawValue
         
-        urlRequest.applyCache(request)
+        urlRequest.applyCachePolicy(request)
         urlRequest.applyHeaders(request)
         urlRequest.applyQuery(request)
         try urlRequest.applyBody(request)
@@ -127,7 +127,7 @@ extension ServerClient {
 
 extension URLRequest {
     
-    fileprivate mutating func applyCache(_ request: Request) {
+    fileprivate mutating func applyCachePolicy(_ request: Request) {
         if let requestPolicy = request.cachePolicy {
             cachePolicy = requestPolicy
         } else {
