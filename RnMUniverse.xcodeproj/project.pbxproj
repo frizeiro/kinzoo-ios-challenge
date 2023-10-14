@@ -122,13 +122,9 @@
 		55F105112ADADA9000979F90 /* RnMUniverse */ = {
 			isa = PBXGroup;
 			children = (
-				55F105122ADADA9000979F90 /* AppDelegate.swift */,
-				55F105142ADADA9000979F90 /* SceneDelegate.swift */,
-				55F105162ADADA9000979F90 /* ViewController.swift */,
-				55F105182ADADA9000979F90 /* Main.storyboard */,
-				55F1051B2ADADA9100979F90 /* Assets.xcassets */,
-				55F1051D2ADADA9100979F90 /* LaunchScreen.storyboard */,
-				55F105202ADADA9100979F90 /* Info.plist */,
+				55F105442ADAE03200979F90 /* SupportingFiles */,
+				55F105432ADAE01600979F90 /* Resources */,
+				55F105422ADAE00100979F90 /* Sources */,
 			);
 			path = RnMUniverse;
 			sourceTree = "<group>";
@@ -148,6 +144,90 @@
 				55F105352ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift */,
 			);
 			path = RnMUniverseUITests;
+			sourceTree = "<group>";
+		};
+		55F105422ADAE00100979F90 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				55F105472ADAE07C00979F90 /* Controller */,
+				55F1054B2ADAE0A200979F90 /* DataSource */,
+				55F1054A2ADAE09600979F90 /* Extension */,
+				55F105482ADAE08500979F90 /* Model */,
+				55F105492ADAE08F00979F90 /* ViewModel */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		55F105432ADAE01600979F90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55F105452ADAE04D00979F90 /* Media */,
+				55F105462ADAE05300979F90 /* UI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55F105442ADAE03200979F90 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				55F105122ADADA9000979F90 /* AppDelegate.swift */,
+				55F105202ADADA9100979F90 /* Info.plist */,
+				55F105142ADADA9000979F90 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		55F105452ADAE04D00979F90 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				55F1051B2ADADA9100979F90 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		55F105462ADAE05300979F90 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55F1051D2ADADA9100979F90 /* LaunchScreen.storyboard */,
+				55F105182ADADA9000979F90 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		55F105472ADAE07C00979F90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55F105162ADADA9000979F90 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55F105482ADAE08500979F90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55F105492ADAE08F00979F90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55F1054A2ADAE09600979F90 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		55F1054B2ADAE0A200979F90 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		F9A001B80B7F7468AFF2F422 /* Frameworks */ = {
@@ -449,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -506,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -525,13 +605,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RnMUniverse/Info.plist;
+				INFOPLIST_FILE = RnMUniverse/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,13 +634,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RnMUniverse/Info.plist;
+				INFOPLIST_FILE = RnMUniverse/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,7 +663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frizeiro.RnMUniverseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -603,7 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frizeiro.RnMUniverseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,6 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frizeiro.RnMUniverseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,6 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frizeiro.RnMUniverseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
