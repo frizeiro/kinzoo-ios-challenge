@@ -1,0 +1,37 @@
+PODS:
+  - NiceTable (0.1.0)
+  - PromiseKit (8.1.1):
+    - PromiseKit/CorePromise (= 8.1.1)
+    - PromiseKit/Foundation (= 8.1.1)
+    - PromiseKit/UIKit (= 8.1.1)
+  - PromiseKit/CorePromise (8.1.1)
+  - PromiseKit/Foundation (8.1.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `main`)"
+  - PromiseKit (~> 8)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  NiceTable:
+    :branch: main
+    :git: "git@github.com:frizeiro/nice-table.git"
+
+CHECKOUT OPTIONS:
+  NiceTable:
+    :commit: b0a934fecc472e7397b7c34349cc43afbddc1c9d
+    :git: "git@github.com:frizeiro/nice-table.git"
+
+SPEC CHECKSUMS:
+  NiceTable: eedb25ae14e42e72cb61fcc54a7e45e15a18a134
+  PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+
+PODFILE CHECKSUM: ed034abdc836c58c41085284416e09e2f6e384fc
+
+COCOAPODS: 1.12.0
