@@ -17,6 +17,17 @@
 		55F1052A2ADADA9100979F90 /* RnMUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105292ADADA9100979F90 /* RnMUniverseTests.swift */; };
 		55F105342ADADA9100979F90 /* RnMUniverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105332ADADA9100979F90 /* RnMUniverseUITests.swift */; };
 		55F105362ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105352ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift */; };
+		55F1054F2ADAE46800979F90 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1054E2ADAE46800979F90 /* Client.swift */; };
+		55F105512ADAE47100979F90 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105502ADAE47100979F90 /* Request.swift */; };
+		55F105532ADAE51900979F90 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105522ADAE51900979F90 /* Method.swift */; };
+		55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105542ADAE82800979F90 /* CharacterDataSource.swift */; };
+		55F105572ADAE94A00979F90 /* CharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105562ADAE94A00979F90 /* CharactersResponse.swift */; };
+		55F1055A2ADAED3100979F90 /* CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105592ADAED3100979F90 /* CharacterGender.swift */; };
+		55F1055C2ADAED4900979F90 /* CharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1055B2ADAED4900979F90 /* CharacterStatus.swift */; };
+		55F1055E2ADAED5900979F90 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1055D2ADAED5900979F90 /* Location.swift */; };
+		55F105602ADAED6E00979F90 /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1055F2ADAED6E00979F90 /* Origin.swift */; };
+		55F105622ADAED7C00979F90 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105612ADAED7C00979F90 /* Character.swift */; };
+		55F105642ADAED8F00979F90 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105632ADAED8F00979F90 /* Info.swift */; };
 		D8358320EEE570A7927F7F36 /* libPods-RnMUniverse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05171453F1D0C4D5A92B362B /* libPods-RnMUniverse.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +64,17 @@
 		55F1052F2ADADA9100979F90 /* RnMUniverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RnMUniverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F105332ADADA9100979F90 /* RnMUniverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnMUniverseUITests.swift; sourceTree = "<group>"; };
 		55F105352ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnMUniverseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55F1054E2ADAE46800979F90 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Client.swift; path = RnMUniverse/Sources/DataSource/Protocol/Client/Client.swift; sourceTree = SOURCE_ROOT; };
+		55F105502ADAE47100979F90 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		55F105522ADAE51900979F90 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		55F105542ADAE82800979F90 /* CharacterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataSource.swift; sourceTree = "<group>"; };
+		55F105562ADAE94A00979F90 /* CharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersResponse.swift; sourceTree = "<group>"; };
+		55F105592ADAED3100979F90 /* CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGender.swift; sourceTree = "<group>"; };
+		55F1055B2ADAED4900979F90 /* CharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatus.swift; sourceTree = "<group>"; };
+		55F1055D2ADAED5900979F90 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		55F1055F2ADAED6E00979F90 /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
+		55F105612ADAED7C00979F90 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		55F105632ADAED8F00979F90 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		5AAFBD1E925575276661D40D /* libPods-RnMUniverseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnMUniverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B90F3232B2A7183E8A9255 /* Pods-RnMUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverse/Pods-RnMUniverse.debug.xcconfig"; sourceTree = "<group>"; };
 		C36C385744925B9F2638AAD4 /* Pods-RnMUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse.release.xcconfig"; path = "Target Support Files/Pods-RnMUniverse/Pods-RnMUniverse.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +227,13 @@
 		55F105482ADAE08500979F90 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55F105582ADAED2200979F90 /* Response */,
+				55F105612ADAED7C00979F90 /* Character.swift */,
+				55F105592ADAED3100979F90 /* CharacterGender.swift */,
+				55F1055B2ADAED4900979F90 /* CharacterStatus.swift */,
+				55F105632ADAED8F00979F90 /* Info.swift */,
+				55F1055D2ADAED5900979F90 /* Location.swift */,
+				55F1055F2ADAED6E00979F90 /* Origin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,8 +255,36 @@
 		55F1054B2ADAE0A200979F90 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				55F1054C2ADAE3DE00979F90 /* Protocol */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		55F1054C2ADAE3DE00979F90 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				55F1054D2ADAE45E00979F90 /* Client */,
+				55F105542ADAE82800979F90 /* CharacterDataSource.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		55F1054D2ADAE45E00979F90 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				55F1054E2ADAE46800979F90 /* Client.swift */,
+				55F105522ADAE51900979F90 /* Method.swift */,
+				55F105502ADAE47100979F90 /* Request.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		55F105582ADAED2200979F90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				55F105562ADAE94A00979F90 /* CharactersResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		F9A001B80B7F7468AFF2F422 /* Frameworks */ = {
@@ -419,9 +476,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F105622ADAED7C00979F90 /* Character.swift in Sources */,
 				55F105172ADADA9000979F90 /* ViewController.swift in Sources */,
+				55F1055E2ADAED5900979F90 /* Location.swift in Sources */,
+				55F105512ADAE47100979F90 /* Request.swift in Sources */,
+				55F105572ADAE94A00979F90 /* CharactersResponse.swift in Sources */,
+				55F105532ADAE51900979F90 /* Method.swift in Sources */,
 				55F105132ADADA9000979F90 /* AppDelegate.swift in Sources */,
+				55F1054F2ADAE46800979F90 /* Client.swift in Sources */,
+				55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */,
+				55F1055C2ADAED4900979F90 /* CharacterStatus.swift in Sources */,
+				55F1055A2ADAED3100979F90 /* CharacterGender.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
+				55F105602ADAED6E00979F90 /* Origin.swift in Sources */,
+				55F105642ADAED8F00979F90 /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
