@@ -9,6 +9,7 @@ import Foundation
 
 enum NetworkError: Error {
     case emptyResponse
+    case requestError(ErrorResponse)
     case encodingFailed(Error)
     case parameterizingFailed(Error)
 }

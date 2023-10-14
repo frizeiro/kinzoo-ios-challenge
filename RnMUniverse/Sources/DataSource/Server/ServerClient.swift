@@ -24,10 +24,11 @@ final class ServerClient: Client {
     
     func execute<T>(_ request: Request) -> Promise<T> where T : Decodable {
         Promise<T> { resolver in
-            log(request)
-            
             var urlRequest: URLRequest?
             do {
+                defer {
+                    self.log(request, urlRequest)
+                }
                 urlRequest = try self.urlRequest(request)
             } catch {
                 resolver.reject(NetworkError.parameterizingFailed(error))
@@ -45,12 +46,19 @@ final class ServerClient: Client {
                     return
                 }
                 
+                self?.log(request, urlRequest, data)
+                
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .formatted(.standardZ)
+                
+                let errorObject = try? decoder.decode(ErrorResponse.self, from: data)
+                
+                if let errorObject {
+                    resolver.reject(NetworkError.requestError(errorObject))
+                    return
+                }
+                
                 do {
-                    let decoder = JSONDecoder()
-                    decoder.dateDecodingStrategy = .formatted(.standardZ)
-                    
-                    self?.log(request, data)
-                    
                     let responseObject = try decoder.decode(T.self, from: data)
                     resolver.fulfill(responseObject)
                 } catch {
@@ -74,6 +82,7 @@ extension ServerClient {
         
         urlRequest.applyCache(request)
         urlRequest.applyHeaders(request)
+        urlRequest.applyQuery(request)
         try urlRequest.applyBody(request)
         
         return urlRequest
@@ -83,23 +92,37 @@ extension ServerClient {
 
 extension ServerClient {
     
-    private func log(_ request: Request) {
+    private func log(
+        _ request: Request,
+        _ urlRequest: URLRequest?
+    ) {
         #if DEBUG
         guard request.loggable else { return }
-        print("[ServerClient]: Request  \(request.method.rawValue) \(requestPath(request))")
+        print("[ServerClient]: Request  \(logRequestDescription(request, urlRequest))")
         #endif
     }
     
-    private func log(_ request: Request, _ result: Data? = nil) {
+    private func log(
+        _ request: Request,
+        _ urlRequest: URLRequest?,
+        _ result: Data? = nil
+    ) {
         #if DEBUG
         guard request.loggable else { return }
         
         let response = result?.prettyPrintedJSONString ?? "-- empty body --"
         
-        print("[ServerClient]: Response \(request.method.rawValue) \(requestPath(request))\n\(response)")
+        print("[ServerClient]: Response \(logRequestDescription(request, urlRequest))\n\(response)")
         #endif
     }
     
+    private func logRequestDescription(
+        _ request: Request,
+        _ urlRequest: URLRequest?
+    ) -> String {
+        return "\(request.method.rawValue) \(urlRequest?.url?.absoluteString ?? requestPath(request))"
+    }
+        
 }
 
 extension URLRequest {
@@ -116,8 +139,28 @@ extension URLRequest {
         }
     }
     
+    fileprivate mutating func applyQuery(_ request: Request) {
+        guard
+            request.method == .get,
+            request.parameters.count > 0,
+            let url
+        else { return }
+        
+        var components = URLComponents(url: url, resolvingAgainstBaseURL: false)
+        
+        let queryItems = request.parameters.map {
+            URLQueryItem(name: $0, value: ($1 as AnyObject).description)
+        }
+        
+        components?.queryItems = queryItems
+        self.url = components?.url
+    }
+    
     fileprivate mutating func applyBody(_ request: Request) throws {
-        guard request.method == .post else { return }
+        guard 
+            request.method == .post,
+            request.parameters.count > 0
+        else { return }
         
         let data = try JSONSerialization.data(withJSONObject: request.parameters, options: [])
         
