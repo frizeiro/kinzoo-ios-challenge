@@ -12,7 +12,6 @@ protocol Client: AnyObject {
     
     var baseUrl: String { get }
     
-    func execute<T>(_ request: Request) -> Promise<T> where T: Decodable
-    func cancellableExecute<T>(_ request: Request) -> (promise: Promise<T>, cancelHandler: (() -> Void)?) where T: Decodable
+    func execute<T: Decodable>(_ request: Request) -> Promise<T>
     
 }

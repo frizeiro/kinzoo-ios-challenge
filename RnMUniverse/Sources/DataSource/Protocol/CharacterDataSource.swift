@@ -10,7 +10,7 @@ import PromiseKit
 
 protocol CharacterDataSource {
     
-    func fetch(page: Int, search: String?) -> Promise<CharactersResponse>
-    func detail(id: Int) -> Promise<[Character]>
+    func fetch(page: Int, name: String?) -> Promise<CharactersResponse>
+    func detail(id: Int) -> Promise<Character>
     
 }

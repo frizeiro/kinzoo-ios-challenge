@@ -28,6 +28,14 @@
 		55F105602ADAED6E00979F90 /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1055F2ADAED6E00979F90 /* Origin.swift */; };
 		55F105622ADAED7C00979F90 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105612ADAED7C00979F90 /* Character.swift */; };
 		55F105642ADAED8F00979F90 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105632ADAED8F00979F90 /* Info.swift */; };
+		55F105672ADAF08600979F90 /* ServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105662ADAF08600979F90 /* ServerClient.swift */; };
+		55F105692ADAF44300979F90 /* CharacterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105682ADAF44300979F90 /* CharacterRequest.swift */; };
+		55F1056C2ADB012700979F90 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1056B2ADB012700979F90 /* NetworkManager.swift */; };
+		55F1056E2ADB058F00979F90 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1056D2ADB058F00979F90 /* DataSource.swift */; };
+		55F105702ADB05B800979F90 /* CharacterServerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1056F2ADB05B800979F90 /* CharacterServerDataSource.swift */; };
+		55F105722ADB19F800979F90 /* Data+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105712ADB19F800979F90 /* Data+Support.swift */; };
+		55F105742ADB1A2400979F90 /* DateFormatter+Standards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */; };
+		55F105762ADB1A7800979F90 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105752ADB1A7800979F90 /* NetworkError.swift */; };
 		D8358320EEE570A7927F7F36 /* libPods-RnMUniverse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05171453F1D0C4D5A92B362B /* libPods-RnMUniverse.a */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +83,14 @@
 		55F1055F2ADAED6E00979F90 /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
 		55F105612ADAED7C00979F90 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		55F105632ADAED8F00979F90 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		55F105662ADAF08600979F90 /* ServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerClient.swift; sourceTree = "<group>"; };
+		55F105682ADAF44300979F90 /* CharacterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRequest.swift; sourceTree = "<group>"; };
+		55F1056B2ADB012700979F90 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		55F1056D2ADB058F00979F90 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		55F1056F2ADB05B800979F90 /* CharacterServerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServerDataSource.swift; sourceTree = "<group>"; };
+		55F105712ADB19F800979F90 /* Data+Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Support.swift"; sourceTree = "<group>"; };
+		55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Standards.swift"; sourceTree = "<group>"; };
+		55F105752ADB1A7800979F90 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		5AAFBD1E925575276661D40D /* libPods-RnMUniverseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnMUniverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B90F3232B2A7183E8A9255 /* Pods-RnMUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverse/Pods-RnMUniverse.debug.xcconfig"; sourceTree = "<group>"; };
 		C36C385744925B9F2638AAD4 /* Pods-RnMUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse.release.xcconfig"; path = "Target Support Files/Pods-RnMUniverse/Pods-RnMUniverse.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +190,7 @@
 				55F105472ADAE07C00979F90 /* Controller */,
 				55F1054B2ADAE0A200979F90 /* DataSource */,
 				55F1054A2ADAE09600979F90 /* Extension */,
+				55F1056A2ADB011500979F90 /* Helper */,
 				55F105482ADAE08500979F90 /* Model */,
 				55F105492ADAE08F00979F90 /* ViewModel */,
 			);
@@ -233,6 +250,7 @@
 				55F1055B2ADAED4900979F90 /* CharacterStatus.swift */,
 				55F105632ADAED8F00979F90 /* Info.swift */,
 				55F1055D2ADAED5900979F90 /* Location.swift */,
+				55F105752ADB1A7800979F90 /* NetworkError.swift */,
 				55F1055F2ADAED6E00979F90 /* Origin.swift */,
 			);
 			path = Model;
@@ -248,6 +266,8 @@
 		55F1054A2ADAE09600979F90 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				55F105712ADB19F800979F90 /* Data+Support.swift */,
+				55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -256,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				55F1054C2ADAE3DE00979F90 /* Protocol */,
+				55F105652ADAF07400979F90 /* Server */,
+				55F1056D2ADB058F00979F90 /* DataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -285,6 +307,24 @@
 				55F105562ADAE94A00979F90 /* CharactersResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		55F105652ADAF07400979F90 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				55F105682ADAF44300979F90 /* CharacterRequest.swift */,
+				55F1056F2ADB05B800979F90 /* CharacterServerDataSource.swift */,
+				55F105662ADAF08600979F90 /* ServerClient.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		55F1056A2ADB011500979F90 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				55F1056B2ADB012700979F90 /* NetworkManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		F9A001B80B7F7468AFF2F422 /* Frameworks */ = {
@@ -480,12 +520,20 @@
 				55F105172ADADA9000979F90 /* ViewController.swift in Sources */,
 				55F1055E2ADAED5900979F90 /* Location.swift in Sources */,
 				55F105512ADAE47100979F90 /* Request.swift in Sources */,
+				55F105702ADB05B800979F90 /* CharacterServerDataSource.swift in Sources */,
 				55F105572ADAE94A00979F90 /* CharactersResponse.swift in Sources */,
 				55F105532ADAE51900979F90 /* Method.swift in Sources */,
+				55F105722ADB19F800979F90 /* Data+Support.swift in Sources */,
 				55F105132ADADA9000979F90 /* AppDelegate.swift in Sources */,
+				55F105762ADB1A7800979F90 /* NetworkError.swift in Sources */,
+				55F105742ADB1A2400979F90 /* DateFormatter+Standards.swift in Sources */,
+				55F105692ADAF44300979F90 /* CharacterRequest.swift in Sources */,
 				55F1054F2ADAE46800979F90 /* Client.swift in Sources */,
 				55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */,
+				55F1056C2ADB012700979F90 /* NetworkManager.swift in Sources */,
 				55F1055C2ADAED4900979F90 /* CharacterStatus.swift in Sources */,
+				55F1056E2ADB058F00979F90 /* DataSource.swift in Sources */,
+				55F105672ADAF08600979F90 /* ServerClient.swift in Sources */,
 				55F1055A2ADAED3100979F90 /* CharacterGender.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
 				55F105602ADAED6E00979F90 /* Origin.swift in Sources */,

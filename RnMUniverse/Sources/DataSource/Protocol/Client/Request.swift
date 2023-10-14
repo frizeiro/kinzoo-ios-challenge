@@ -14,29 +14,27 @@ protocol Request {
     var headers: [String: String] { get }
     var cachePolicy: NSURLRequest.CachePolicy? { get }
     var loggable: Bool { get }
-    var needsToken: Bool { get }
-    var runsInBackground: Bool { get }
 }
 
 extension Request {
     
-    public var method: Method {
+    var method: Method {
         return .get
     }
     
-    public var parameters: [String: Any] {
+    var parameters: [String: Any] {
         return [:]
     }
     
-    public var headers: [String: String] {
+    var headers: [String: String] {
         return [:]
     }
     
-    public var cachePolicy: NSURLRequest.CachePolicy? {
+    var cachePolicy: NSURLRequest.CachePolicy? {
         return nil
     }
     
-    public var loggable: Bool {
+    var loggable: Bool {
         return true
     }
     
