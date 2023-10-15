@@ -13,7 +13,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
     // MARK: - Private Variables
     
     @IBOutlet private var nameLabel: UILabel?
-    @IBOutlet private var avatarImage: UIImage?
+    @IBOutlet private var avatarImage: UIImageView?
     
     // MARK: - Life Cycle
     
@@ -29,9 +29,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
         guard let item = item as? CharacterCollectionItem else { return }
         
         nameLabel?.text = item.name
-        
-        // TODO: Loada avatar
-//        avatarImage?.image = item.avatar
+        avatarImage?.load(from: item.avatar, placeholder: item.placeholder)
     }
     
 }

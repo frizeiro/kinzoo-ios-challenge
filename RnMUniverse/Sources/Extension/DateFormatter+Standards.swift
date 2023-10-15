@@ -9,6 +9,8 @@ import Foundation
 
 extension DateFormatter {
     
+    // MARK: - Piblic Variables
+    
     static let standardT: DateFormatter = {
         var dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"

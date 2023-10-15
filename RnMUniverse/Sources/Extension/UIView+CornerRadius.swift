@@ -10,7 +10,9 @@ import UIKit
 
 extension UIView {
     
-    public var cornerRadius: CGFloat {
+    // MARK: - Piblic Variables
+    
+    var cornerRadius: CGFloat {
         set {
             layer.cornerRadius = newValue
             clipsToBounds = cornerRadius > 0
