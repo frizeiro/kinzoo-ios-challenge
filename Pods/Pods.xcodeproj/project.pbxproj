@@ -7,108 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E000006D0 /* NiceCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* NiceCollectionHeaderView.swift */; };
-		46EB2E000006E0 /* NiceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* NiceCollectionViewController.swift */; };
-		46EB2E000006F0 /* UICollectionView+ScrollTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* UICollectionView+ScrollTo.swift */; };
-		46EB2E00000700 /* NiceCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* NiceCollectionCell.swift */; };
-		46EB2E00000710 /* NiceCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* NiceCollectionItem.swift */; };
-		46EB2E00000720 /* NiceCollectionItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* NiceCollectionItemSize.swift */; };
-		46EB2E00000730 /* NiceCollectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* NiceCollectionSection.swift */; };
-		46EB2E00000740 /* NiceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* NiceCollectionView.swift */; };
-		46EB2E00000750 /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* UIView+Border.swift */; };
-		46EB2E00000760 /* UIView+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* UIView+Bundle.swift */; };
-		46EB2E00000770 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* UIView+CornerRadius.swift */; };
-		46EB2E00000780 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* UIView+Nib.swift */; };
-		46EB2E00000790 /* NiceContentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* NiceContentStyle.swift */; };
-		46EB2E000007A0 /* NiceSectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* NiceSectionStyle.swift */; };
-		46EB2E000007B0 /* NiceButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* NiceButtonCell.swift */; };
-		46EB2E000007C0 /* NiceButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* NiceButtonItem.swift */; };
-		46EB2E000007D0 /* NiceContentAccessoryStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* NiceContentAccessoryStyle.swift */; };
-		46EB2E000007E0 /* NiceContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* NiceContentCell.swift */; };
-		46EB2E000007F0 /* NiceContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* NiceContentItem.swift */; };
-		46EB2E00000800 /* NiceContentItemDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* NiceContentItemDescription.swift */; };
-		46EB2E00000810 /* NiceContentItemRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* NiceContentItemRepresentable.swift */; };
-		46EB2E00000820 /* NiceLookupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* NiceLookupItem.swift */; };
-		46EB2E00000830 /* NiceSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* NiceSwitchItem.swift */; };
-		46EB2E00000840 /* NiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* NiceTableViewController.swift */; };
-		46EB2E00000850 /* NiceDeletableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002C0 /* NiceDeletableItem.swift */; };
-		46EB2E00000860 /* NiceKeyboardAvoidingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* NiceKeyboardAvoidingTableView.swift */; };
-		46EB2E00000870 /* NiceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* NiceTableCell.swift */; };
-		46EB2E00000880 /* NiceTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002F0 /* NiceTableItem.swift */; };
-		46EB2E00000890 /* NiceTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* NiceTableSection.swift */; };
-		46EB2E000008A0 /* NiceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* NiceTableView.swift */; };
-		46EB2E000008B0 /* NiceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* NiceTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000008C0 /* NiceCollectionHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NiceCollectionHeaderView.xib */; };
-		46EB2E000008D0 /* NiceCollectionViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* NiceCollectionViewController.xib */; };
-		46EB2E000008E0 /* NiceButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000200 /* NiceButtonCell.xib */; };
-		46EB2E000008F0 /* NiceContentCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* NiceContentCell.xib */; };
-		46EB2E00000900 /* NiceTableViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* NiceTableViewController.xib */; };
-		46EB2E00000960 /* NiceTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000950 /* NiceTable-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000009A0 /* NiceTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000990 /* NiceTable-dummy.m */; };
-		46EB2E00000A30 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000460 /* after.m */; };
-		46EB2E00000A40 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* AnyPromise.m */; };
-		46EB2E00000A50 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* dispatch_promise.m */; };
-		46EB2E00000A60 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000490 /* hang.m */; };
-		46EB2E00000A70 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004A0 /* join.m */; };
-		46EB2E00000A80 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004B0 /* race.m */; };
-		46EB2E00000A90 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* when.m */; };
-		46EB2E00000AA0 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* AnyPromise.swift */; };
-		46EB2E00000AB0 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* Async.swift */; };
-		46EB2E00000AC0 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000350 /* Box.swift */; };
-		46EB2E00000AD0 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* Catchable.swift */; };
-		46EB2E00000AE0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* Combine.swift */; };
-		46EB2E00000AF0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* Configuration.swift */; };
-		46EB2E00000B00 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000390 /* CustomStringConvertible.swift */; };
-		46EB2E00000B10 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003A0 /* Deprecations.swift */; };
-		46EB2E00000B20 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003B0 /* Error.swift */; };
-		46EB2E00000B30 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003C0 /* Guarantee.swift */; };
-		46EB2E00000B40 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003D0 /* LogEvent.swift */; };
-		46EB2E00000B50 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003E0 /* Promise.swift */; };
-		46EB2E00000B60 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003F0 /* Resolver.swift */; };
-		46EB2E00000B70 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000400 /* Thenable.swift */; };
-		46EB2E00000B80 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* after.swift */; };
-		46EB2E00000B90 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000420 /* firstly.swift */; };
-		46EB2E00000BA0 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000430 /* hang.swift */; };
-		46EB2E00000BB0 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* race.swift */; };
-		46EB2E00000BC0 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000450 /* when.swift */; };
-		46EB2E00000BD0 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004D0 /* AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000BE0 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004E0 /* PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000BF0 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004F0 /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000C00 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000520 /* NSNotificationCenter+AnyPromise.m */; };
-		46EB2E00000C10 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000560 /* NSTask+AnyPromise.m */; };
-		46EB2E00000C20 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000580 /* NSURLSession+AnyPromise.m */; };
-		46EB2E00000C30 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000530 /* NSNotificationCenter+Promise.swift */; };
-		46EB2E00000C40 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000540 /* NSObject+Promise.swift */; };
-		46EB2E00000C50 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* NSURLSession+Promise.swift */; };
-		46EB2E00000C60 /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005B0 /* Process+Promise.swift */; };
-		46EB2E00000C70 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* afterlife.swift */; };
-		46EB2E00000C80 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000510 /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000C90 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000550 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000CA0 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000570 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000CB0 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005A0 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000CC0 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000600 /* UIView+AnyPromise.m */; };
-		46EB2E00000CD0 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000630 /* UIViewController+AnyPromise.m */; };
-		46EB2E00000CE0 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000610 /* UIView+Promise.swift */; };
-		46EB2E00000CF0 /* UIViewPropertyAnimator+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000640 /* UIViewPropertyAnimator+Promise.swift */; };
-		46EB2E00000D00 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005E0 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000D10 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005F0 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000D20 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000620 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000D80 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D70 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000DC0 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000DB0 /* PromiseKit-dummy.m */; };
-		46EB2E00000EA0 /* Pods-RnMUniverse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E90 /* Pods-RnMUniverse-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000EE0 /* Pods-RnMUniverse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000ED0 /* Pods-RnMUniverse-dummy.m */; };
-		46EB2E00000FD0 /* Pods-RnMUniverseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000FC0 /* Pods-RnMUniverseTests-dummy.m */; };
+		46EB2E000006E0 /* NiceCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* NiceCollectionHeaderView.swift */; };
+		46EB2E000006F0 /* NiceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NiceCollectionViewController.swift */; };
+		46EB2E00000700 /* UICollectionView+ScrollTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* UICollectionView+ScrollTo.swift */; };
+		46EB2E00000710 /* NiceCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* NiceCollectionCell.swift */; };
+		46EB2E00000720 /* NiceCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* NiceCollectionItem.swift */; };
+		46EB2E00000730 /* NiceCollectionItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* NiceCollectionItemSize.swift */; };
+		46EB2E00000740 /* NiceCollectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* NiceCollectionSection.swift */; };
+		46EB2E00000750 /* NiceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* NiceCollectionView.swift */; };
+		46EB2E00000760 /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* UIView+Border.swift */; };
+		46EB2E00000770 /* UIView+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* UIView+Bundle.swift */; };
+		46EB2E00000780 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* UIView+CornerRadius.swift */; };
+		46EB2E00000790 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* UIView+Nib.swift */; };
+		46EB2E000007A0 /* NiceContentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* NiceContentStyle.swift */; };
+		46EB2E000007B0 /* NiceSectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* NiceSectionStyle.swift */; };
+		46EB2E000007C0 /* NiceButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* NiceButtonCell.swift */; };
+		46EB2E000007D0 /* NiceButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* NiceButtonItem.swift */; };
+		46EB2E000007E0 /* NiceContentAccessoryStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* NiceContentAccessoryStyle.swift */; };
+		46EB2E000007F0 /* NiceContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000200 /* NiceContentCell.swift */; };
+		46EB2E00000800 /* NiceContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* NiceContentItem.swift */; };
+		46EB2E00000810 /* NiceContentItemDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* NiceContentItemDescription.swift */; };
+		46EB2E00000820 /* NiceContentItemRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* NiceContentItemRepresentable.swift */; };
+		46EB2E00000830 /* NiceLookupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* NiceLookupItem.swift */; };
+		46EB2E00000840 /* NiceSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* NiceSwitchItem.swift */; };
+		46EB2E00000850 /* NiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* NiceTableViewController.swift */; };
+		46EB2E00000860 /* NiceDeletableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* NiceDeletableItem.swift */; };
+		46EB2E00000870 /* NiceKeyboardAvoidingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* NiceKeyboardAvoidingTableView.swift */; };
+		46EB2E00000880 /* NiceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* NiceTableCell.swift */; };
+		46EB2E00000890 /* NiceTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* NiceTableItem.swift */; };
+		46EB2E000008A0 /* NiceTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* NiceTableSection.swift */; };
+		46EB2E000008B0 /* NiceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002C0 /* NiceTableView.swift */; };
+		46EB2E000008C0 /* NiceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* NiceTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000920 /* NiceTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000910 /* NiceTable-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000960 /* NiceTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000950 /* NiceTable-dummy.m */; };
+		46EB2E000009F0 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* after.m */; };
+		46EB2E00000A00 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000420 /* AnyPromise.m */; };
+		46EB2E00000A10 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000430 /* dispatch_promise.m */; };
+		46EB2E00000A20 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* hang.m */; };
+		46EB2E00000A30 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000450 /* join.m */; };
+		46EB2E00000A40 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000460 /* race.m */; };
+		46EB2E00000A50 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* when.m */; };
+		46EB2E00000A60 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* AnyPromise.swift */; };
+		46EB2E00000A70 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002F0 /* Async.swift */; };
+		46EB2E00000A80 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* Box.swift */; };
+		46EB2E00000A90 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* Catchable.swift */; };
+		46EB2E00000AA0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* Combine.swift */; };
+		46EB2E00000AB0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* Configuration.swift */; };
+		46EB2E00000AC0 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* CustomStringConvertible.swift */; };
+		46EB2E00000AD0 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000350 /* Deprecations.swift */; };
+		46EB2E00000AE0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* Error.swift */; };
+		46EB2E00000AF0 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* Guarantee.swift */; };
+		46EB2E00000B00 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* LogEvent.swift */; };
+		46EB2E00000B10 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000390 /* Promise.swift */; };
+		46EB2E00000B20 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003A0 /* Resolver.swift */; };
+		46EB2E00000B30 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003B0 /* Thenable.swift */; };
+		46EB2E00000B40 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003C0 /* after.swift */; };
+		46EB2E00000B50 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003D0 /* firstly.swift */; };
+		46EB2E00000B60 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003E0 /* hang.swift */; };
+		46EB2E00000B70 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003F0 /* race.swift */; };
+		46EB2E00000B80 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000400 /* when.swift */; };
+		46EB2E00000B90 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000BA0 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000490 /* PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000BB0 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004A0 /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000BC0 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004D0 /* NSNotificationCenter+AnyPromise.m */; };
+		46EB2E00000BD0 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000510 /* NSTask+AnyPromise.m */; };
+		46EB2E00000BE0 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000530 /* NSURLSession+AnyPromise.m */; };
+		46EB2E00000BF0 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004E0 /* NSNotificationCenter+Promise.swift */; };
+		46EB2E00000C00 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004F0 /* NSObject+Promise.swift */; };
+		46EB2E00000C10 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000540 /* NSURLSession+Promise.swift */; };
+		46EB2E00000C20 /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000560 /* Process+Promise.swift */; };
+		46EB2E00000C30 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000570 /* afterlife.swift */; };
+		46EB2E00000C40 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000C50 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000500 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000C60 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000520 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000C70 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000550 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000C80 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005B0 /* UIView+AnyPromise.m */; };
+		46EB2E00000C90 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005E0 /* UIViewController+AnyPromise.m */; };
+		46EB2E00000CA0 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* UIView+Promise.swift */; };
+		46EB2E00000CB0 /* UIViewPropertyAnimator+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005F0 /* UIViewPropertyAnimator+Promise.swift */; };
+		46EB2E00000CC0 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000CD0 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005A0 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000CE0 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005D0 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000D40 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D30 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000D80 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000D70 /* PromiseKit-dummy.m */; };
+		46EB2E00000E60 /* Pods-RnMUniverse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000E50 /* Pods-RnMUniverse-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000EB0 /* Pods-RnMUniverse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000EA0 /* Pods-RnMUniverse-dummy.m */; };
+		46EB2E00000FA0 /* Pods-RnMUniverseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F90 /* Pods-RnMUniverseTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00000FE0 /* PBXContainerItemProxy */ = {
+		46EB2E00000FB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AFFD20DDF0254BB37ABE254AB28BA52B;
 			remoteInfo = NiceTable;
 		};
-		46EB2E00001000 /* PBXContainerItemProxy */ = {
+		46EB2E00000FD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -121,141 +116,142 @@
 		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = PromiseKit; path = libPromiseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF506B2CB11806898558142A708204B /* Pods-RnMUniverse */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-RnMUniverse"; path = "libPods-RnMUniverse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E000000D0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000E0 /* NiceCollectionHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionHeaderView.swift; path = NiceTable/Classes/CollectionView/Components/NiceCollectionHeaderView/NiceCollectionHeaderView.swift; sourceTree = "<group>"; };
-		46EB2E000000F0 /* NiceCollectionHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceCollectionHeaderView.xib; path = NiceTable/Classes/CollectionView/Components/NiceCollectionHeaderView/NiceCollectionHeaderView.xib; sourceTree = "<group>"; };
-		46EB2E00000100 /* NiceCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionViewController.swift; path = NiceTable/Classes/CollectionView/Components/NiceCollectionViewController/NiceCollectionViewController.swift; sourceTree = "<group>"; };
-		46EB2E00000110 /* NiceCollectionViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceCollectionViewController.xib; path = NiceTable/Classes/CollectionView/Components/NiceCollectionViewController/NiceCollectionViewController.xib; sourceTree = "<group>"; };
-		46EB2E00000120 /* UICollectionView+ScrollTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ScrollTo.swift"; path = "NiceTable/Classes/CollectionView/Extension/UICollectionView+ScrollTo.swift"; sourceTree = "<group>"; };
-		46EB2E00000130 /* NiceCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionCell.swift; path = NiceTable/Classes/CollectionView/NiceCollectionCell.swift; sourceTree = "<group>"; };
-		46EB2E00000140 /* NiceCollectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionItem.swift; path = NiceTable/Classes/CollectionView/NiceCollectionItem.swift; sourceTree = "<group>"; };
-		46EB2E00000150 /* NiceCollectionItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionItemSize.swift; path = NiceTable/Classes/CollectionView/NiceCollectionItemSize.swift; sourceTree = "<group>"; };
-		46EB2E00000160 /* NiceCollectionSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionSection.swift; path = NiceTable/Classes/CollectionView/NiceCollectionSection.swift; sourceTree = "<group>"; };
-		46EB2E00000170 /* NiceCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionView.swift; path = NiceTable/Classes/CollectionView/NiceCollectionView.swift; sourceTree = "<group>"; };
-		46EB2E00000180 /* UIView+Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Border.swift"; path = "NiceTable/Classes/Core/UIView+Border.swift"; sourceTree = "<group>"; };
-		46EB2E00000190 /* UIView+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Bundle.swift"; path = "NiceTable/Classes/Core/UIView+Bundle.swift"; sourceTree = "<group>"; };
-		46EB2E000001A0 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CornerRadius.swift"; path = "NiceTable/Classes/Core/UIView+CornerRadius.swift"; sourceTree = "<group>"; };
-		46EB2E000001B0 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "NiceTable/Classes/Core/UIView+Nib.swift"; sourceTree = "<group>"; };
-		46EB2E000001C0 /* NiceTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NiceTable.h; path = NiceTable/Classes/NiceTable.h; sourceTree = "<group>"; };
-		46EB2E000001D0 /* NiceContentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentStyle.swift; path = NiceTable/Classes/Style/NiceContentStyle.swift; sourceTree = "<group>"; };
-		46EB2E000001E0 /* NiceSectionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceSectionStyle.swift; path = NiceTable/Classes/Style/NiceSectionStyle.swift; sourceTree = "<group>"; };
-		46EB2E000001F0 /* NiceButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceButtonCell.swift; path = NiceTable/Classes/TableView/Components/NiceButtonItem/NiceButtonCell.swift; sourceTree = "<group>"; };
-		46EB2E00000200 /* NiceButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceButtonCell.xib; path = NiceTable/Classes/TableView/Components/NiceButtonItem/NiceButtonCell.xib; sourceTree = "<group>"; };
-		46EB2E00000210 /* NiceButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceButtonItem.swift; path = NiceTable/Classes/TableView/Components/NiceButtonItem/NiceButtonItem.swift; sourceTree = "<group>"; };
-		46EB2E00000220 /* NiceContentAccessoryStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentAccessoryStyle.swift; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentAccessoryStyle.swift; sourceTree = "<group>"; };
-		46EB2E00000230 /* NiceContentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentCell.swift; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentCell.swift; sourceTree = "<group>"; };
-		46EB2E00000240 /* NiceContentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceContentCell.xib; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentCell.xib; sourceTree = "<group>"; };
-		46EB2E00000250 /* NiceContentItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItem.swift; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentItem.swift; sourceTree = "<group>"; };
-		46EB2E00000260 /* NiceContentItemDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItemDescription.swift; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentItemDescription.swift; sourceTree = "<group>"; };
-		46EB2E00000270 /* NiceContentItemRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItemRepresentable.swift; path = NiceTable/Classes/TableView/Components/NiceContentItem/NiceContentItemRepresentable.swift; sourceTree = "<group>"; };
-		46EB2E00000280 /* NiceLookupItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceLookupItem.swift; path = NiceTable/Classes/TableView/Components/NiceLookupItem.swift; sourceTree = "<group>"; };
-		46EB2E00000290 /* NiceSwitchItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceSwitchItem.swift; path = NiceTable/Classes/TableView/Components/NiceSwitchItem.swift; sourceTree = "<group>"; };
-		46EB2E000002A0 /* NiceTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableViewController.swift; path = NiceTable/Classes/TableView/Components/NiceTableViewController/NiceTableViewController.swift; sourceTree = "<group>"; };
-		46EB2E000002B0 /* NiceTableViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceTableViewController.xib; path = NiceTable/Classes/TableView/Components/NiceTableViewController/NiceTableViewController.xib; sourceTree = "<group>"; };
-		46EB2E000002C0 /* NiceDeletableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceDeletableItem.swift; path = NiceTable/Classes/TableView/NiceDeletableItem.swift; sourceTree = "<group>"; };
-		46EB2E000002D0 /* NiceKeyboardAvoidingTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceKeyboardAvoidingTableView.swift; path = NiceTable/Classes/TableView/NiceKeyboardAvoidingTableView.swift; sourceTree = "<group>"; };
-		46EB2E000002E0 /* NiceTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableCell.swift; path = NiceTable/Classes/TableView/NiceTableCell.swift; sourceTree = "<group>"; };
-		46EB2E000002F0 /* NiceTableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableItem.swift; path = NiceTable/Classes/TableView/NiceTableItem.swift; sourceTree = "<group>"; };
-		46EB2E00000300 /* NiceTableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableSection.swift; path = NiceTable/Classes/TableView/NiceTableSection.swift; sourceTree = "<group>"; };
-		46EB2E00000310 /* NiceTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableView.swift; path = NiceTable/Classes/TableView/NiceTableView.swift; sourceTree = "<group>"; };
-		46EB2E00000330 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
-		46EB2E00000340 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Async.swift; sourceTree = "<group>"; };
-		46EB2E00000350 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		46EB2E00000360 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
-		46EB2E00000370 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Sources/Combine.swift; sourceTree = "<group>"; };
-		46EB2E00000380 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
-		46EB2E00000390 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
-		46EB2E000003A0 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
-		46EB2E000003B0 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		46EB2E000003C0 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
-		46EB2E000003D0 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
-		46EB2E000003E0 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
-		46EB2E000003F0 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
-		46EB2E00000400 /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
-		46EB2E00000410 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
-		46EB2E00000420 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
-		46EB2E00000430 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
-		46EB2E00000440 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
-		46EB2E00000450 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
-		46EB2E00000460 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
-		46EB2E00000470 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
-		46EB2E00000480 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
-		46EB2E00000490 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
-		46EB2E000004A0 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
-		46EB2E000004B0 /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
-		46EB2E000004C0 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
-		46EB2E000004D0 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
-		46EB2E000004E0 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
-		46EB2E000004F0 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
-		46EB2E00000510 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
-		46EB2E00000520 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
-		46EB2E00000530 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E00000540 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E00000550 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
-		46EB2E00000560 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
-		46EB2E00000570 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
-		46EB2E00000580 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
-		46EB2E00000590 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E000005A0 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
-		46EB2E000005B0 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E000005C0 /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
-		46EB2E000005E0 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
-		46EB2E000005F0 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
-		46EB2E00000600 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
-		46EB2E00000610 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E00000620 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
-		46EB2E00000630 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
-		46EB2E00000640 /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
-		46EB2E00000920 /* NiceTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NiceTable.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000930 /* NiceTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NiceTable.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000940 /* NiceTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NiceTable.modulemap; sourceTree = "<group>"; };
-		46EB2E00000950 /* NiceTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NiceTable-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000980 /* NiceTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NiceTable-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000990 /* NiceTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NiceTable-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000D40 /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000D50 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000D60 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
-		46EB2E00000D70 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000DA0 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000DB0 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000E60 /* Pods-RnMUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000E70 /* Pods-RnMUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000E80 /* Pods-RnMUniverse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RnMUniverse.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000E90 /* Pods-RnMUniverse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RnMUniverse-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000EB0 /* Pods-RnMUniverse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverse-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000EC0 /* Pods-RnMUniverse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverse-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000ED0 /* Pods-RnMUniverse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverse-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000F80 /* Pods-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000F90 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000FA0 /* Pods-RnMUniverseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverseTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000FB0 /* Pods-RnMUniverseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000FC0 /* Pods-RnMUniverseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverseTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000000E0 /* NiceCollectionHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionHeaderView.swift; path = NiceTable/Sources/CollectionView/Components/NiceCollectionHeaderView/NiceCollectionHeaderView.swift; sourceTree = "<group>"; };
+		46EB2E000000F0 /* NiceCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionViewController.swift; path = NiceTable/Sources/CollectionView/Components/NiceCollectionViewController/NiceCollectionViewController.swift; sourceTree = "<group>"; };
+		46EB2E00000100 /* UICollectionView+ScrollTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ScrollTo.swift"; path = "NiceTable/Sources/CollectionView/Extension/UICollectionView+ScrollTo.swift"; sourceTree = "<group>"; };
+		46EB2E00000110 /* NiceCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionCell.swift; path = NiceTable/Sources/CollectionView/NiceCollectionCell.swift; sourceTree = "<group>"; };
+		46EB2E00000120 /* NiceCollectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionItem.swift; path = NiceTable/Sources/CollectionView/NiceCollectionItem.swift; sourceTree = "<group>"; };
+		46EB2E00000130 /* NiceCollectionItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionItemSize.swift; path = NiceTable/Sources/CollectionView/NiceCollectionItemSize.swift; sourceTree = "<group>"; };
+		46EB2E00000140 /* NiceCollectionSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionSection.swift; path = NiceTable/Sources/CollectionView/NiceCollectionSection.swift; sourceTree = "<group>"; };
+		46EB2E00000150 /* NiceCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceCollectionView.swift; path = NiceTable/Sources/CollectionView/NiceCollectionView.swift; sourceTree = "<group>"; };
+		46EB2E00000160 /* UIView+Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Border.swift"; path = "NiceTable/Sources/Core/UIView+Border.swift"; sourceTree = "<group>"; };
+		46EB2E00000170 /* UIView+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Bundle.swift"; path = "NiceTable/Sources/Core/UIView+Bundle.swift"; sourceTree = "<group>"; };
+		46EB2E00000180 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CornerRadius.swift"; path = "NiceTable/Sources/Core/UIView+CornerRadius.swift"; sourceTree = "<group>"; };
+		46EB2E00000190 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "NiceTable/Sources/Core/UIView+Nib.swift"; sourceTree = "<group>"; };
+		46EB2E000001A0 /* NiceTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NiceTable.h; path = NiceTable/Sources/NiceTable.h; sourceTree = "<group>"; };
+		46EB2E000001B0 /* NiceContentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentStyle.swift; path = NiceTable/Sources/Style/NiceContentStyle.swift; sourceTree = "<group>"; };
+		46EB2E000001C0 /* NiceSectionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceSectionStyle.swift; path = NiceTable/Sources/Style/NiceSectionStyle.swift; sourceTree = "<group>"; };
+		46EB2E000001D0 /* NiceButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceButtonCell.swift; path = NiceTable/Sources/TableView/Components/NiceButtonItem/NiceButtonCell.swift; sourceTree = "<group>"; };
+		46EB2E000001E0 /* NiceButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceButtonItem.swift; path = NiceTable/Sources/TableView/Components/NiceButtonItem/NiceButtonItem.swift; sourceTree = "<group>"; };
+		46EB2E000001F0 /* NiceContentAccessoryStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentAccessoryStyle.swift; path = NiceTable/Sources/TableView/Components/NiceContentItem/NiceContentAccessoryStyle.swift; sourceTree = "<group>"; };
+		46EB2E00000200 /* NiceContentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentCell.swift; path = NiceTable/Sources/TableView/Components/NiceContentItem/NiceContentCell.swift; sourceTree = "<group>"; };
+		46EB2E00000210 /* NiceContentItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItem.swift; path = NiceTable/Sources/TableView/Components/NiceContentItem/NiceContentItem.swift; sourceTree = "<group>"; };
+		46EB2E00000220 /* NiceContentItemDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItemDescription.swift; path = NiceTable/Sources/TableView/Components/NiceContentItem/NiceContentItemDescription.swift; sourceTree = "<group>"; };
+		46EB2E00000230 /* NiceContentItemRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceContentItemRepresentable.swift; path = NiceTable/Sources/TableView/Components/NiceContentItem/NiceContentItemRepresentable.swift; sourceTree = "<group>"; };
+		46EB2E00000240 /* NiceLookupItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceLookupItem.swift; path = NiceTable/Sources/TableView/Components/NiceLookupItem.swift; sourceTree = "<group>"; };
+		46EB2E00000250 /* NiceSwitchItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceSwitchItem.swift; path = NiceTable/Sources/TableView/Components/NiceSwitchItem.swift; sourceTree = "<group>"; };
+		46EB2E00000260 /* NiceTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableViewController.swift; path = NiceTable/Sources/TableView/Components/NiceTableViewController/NiceTableViewController.swift; sourceTree = "<group>"; };
+		46EB2E00000270 /* NiceDeletableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceDeletableItem.swift; path = NiceTable/Sources/TableView/NiceDeletableItem.swift; sourceTree = "<group>"; };
+		46EB2E00000280 /* NiceKeyboardAvoidingTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceKeyboardAvoidingTableView.swift; path = NiceTable/Sources/TableView/NiceKeyboardAvoidingTableView.swift; sourceTree = "<group>"; };
+		46EB2E00000290 /* NiceTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableCell.swift; path = NiceTable/Sources/TableView/NiceTableCell.swift; sourceTree = "<group>"; };
+		46EB2E000002A0 /* NiceTableItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableItem.swift; path = NiceTable/Sources/TableView/NiceTableItem.swift; sourceTree = "<group>"; };
+		46EB2E000002B0 /* NiceTableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableSection.swift; path = NiceTable/Sources/TableView/NiceTableSection.swift; sourceTree = "<group>"; };
+		46EB2E000002C0 /* NiceTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NiceTableView.swift; path = NiceTable/Sources/TableView/NiceTableView.swift; sourceTree = "<group>"; };
+		46EB2E000002E0 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		46EB2E000002F0 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Async.swift; sourceTree = "<group>"; };
+		46EB2E00000300 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		46EB2E00000310 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
+		46EB2E00000320 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Sources/Combine.swift; sourceTree = "<group>"; };
+		46EB2E00000330 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
+		46EB2E00000340 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
+		46EB2E00000350 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		46EB2E00000360 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		46EB2E00000370 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
+		46EB2E00000380 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
+		46EB2E00000390 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		46EB2E000003A0 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		46EB2E000003B0 /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
+		46EB2E000003C0 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		46EB2E000003D0 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
+		46EB2E000003E0 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
+		46EB2E000003F0 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		46EB2E00000400 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		46EB2E00000410 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		46EB2E00000420 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		46EB2E00000430 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		46EB2E00000440 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		46EB2E00000450 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		46EB2E00000460 /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
+		46EB2E00000470 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		46EB2E00000480 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		46EB2E00000490 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		46EB2E000004A0 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		46EB2E000004C0 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		46EB2E000004D0 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		46EB2E000004E0 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E000004F0 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E00000500 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		46EB2E00000510 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		46EB2E00000520 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		46EB2E00000530 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		46EB2E00000540 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E00000550 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		46EB2E00000560 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E00000570 /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		46EB2E00000590 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		46EB2E000005A0 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		46EB2E000005B0 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		46EB2E000005C0 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E000005D0 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		46EB2E000005E0 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		46EB2E000005F0 /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
+		46EB2E00000610 /* NiceButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceButtonCell.xib; path = NiceTable/Resources/NiceButtonCell.xib; sourceTree = "<group>"; };
+		46EB2E00000620 /* NiceCollectionHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceCollectionHeaderView.xib; path = NiceTable/Resources/NiceCollectionHeaderView.xib; sourceTree = "<group>"; };
+		46EB2E00000630 /* NiceCollectionViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceCollectionViewController.xib; path = NiceTable/Resources/NiceCollectionViewController.xib; sourceTree = "<group>"; };
+		46EB2E00000640 /* NiceContentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceContentCell.xib; path = NiceTable/Resources/NiceContentCell.xib; sourceTree = "<group>"; };
+		46EB2E00000650 /* NiceTableViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NiceTableViewController.xib; path = NiceTable/Resources/NiceTableViewController.xib; sourceTree = "<group>"; };
+		46EB2E000008E0 /* NiceTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NiceTable.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000008F0 /* NiceTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NiceTable.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000900 /* NiceTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NiceTable.modulemap; sourceTree = "<group>"; };
+		46EB2E00000910 /* NiceTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NiceTable-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000940 /* NiceTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NiceTable-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000950 /* NiceTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NiceTable-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000D00 /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000D10 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000D20 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		46EB2E00000D30 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000D60 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000D70 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000E20 /* Pods-RnMUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000E30 /* Pods-RnMUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000E40 /* Pods-RnMUniverse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RnMUniverse.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000E50 /* Pods-RnMUniverse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RnMUniverse-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000E70 /* Pods-RnMUniverse-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RnMUniverse-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00000E80 /* Pods-RnMUniverse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverse-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000E90 /* Pods-RnMUniverse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverse-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000EA0 /* Pods-RnMUniverse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverse-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000F50 /* Pods-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000F60 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000F70 /* Pods-RnMUniverseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000F80 /* Pods-RnMUniverseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000F90 /* Pods-RnMUniverseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverseTests-dummy.m"; sourceTree = "<group>"; };
 		816F7CF9E3F22744496E5650A414CE6A /* Pods-RnMUniverseTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-RnMUniverseTests"; path = "libPods-RnMUniverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF23A0641CD5F6E238CBE878E6F7C072 /* NiceTable */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = NiceTable; path = libNiceTable.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E000006C0 /* Frameworks */ = {
+		46EB2E000006D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000A20 /* Frameworks */ = {
+		46EB2E000009E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000E40 /* Frameworks */ = {
+		46EB2E00000E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000F60 /* Frameworks */ = {
+		46EB2E00000F30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,8 +293,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000E50 /* Pods-RnMUniverse */,
-				46EB2E00000F70 /* Pods-RnMUniverseTests */,
+				46EB2E00000E10 /* Pods-RnMUniverse */,
+				46EB2E00000F40 /* Pods-RnMUniverseTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -315,43 +311,39 @@
 		46EB2E000000B0 /* NiceTable */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001F0 /* NiceButtonCell.swift */,
-				46EB2E00000200 /* NiceButtonCell.xib */,
-				46EB2E00000210 /* NiceButtonItem.swift */,
-				46EB2E00000130 /* NiceCollectionCell.swift */,
+				46EB2E000001D0 /* NiceButtonCell.swift */,
+				46EB2E000001E0 /* NiceButtonItem.swift */,
+				46EB2E00000110 /* NiceCollectionCell.swift */,
 				46EB2E000000E0 /* NiceCollectionHeaderView.swift */,
-				46EB2E000000F0 /* NiceCollectionHeaderView.xib */,
-				46EB2E00000140 /* NiceCollectionItem.swift */,
-				46EB2E00000150 /* NiceCollectionItemSize.swift */,
-				46EB2E00000160 /* NiceCollectionSection.swift */,
-				46EB2E00000170 /* NiceCollectionView.swift */,
-				46EB2E00000100 /* NiceCollectionViewController.swift */,
-				46EB2E00000110 /* NiceCollectionViewController.xib */,
-				46EB2E00000220 /* NiceContentAccessoryStyle.swift */,
-				46EB2E00000230 /* NiceContentCell.swift */,
-				46EB2E00000240 /* NiceContentCell.xib */,
-				46EB2E00000250 /* NiceContentItem.swift */,
-				46EB2E00000260 /* NiceContentItemDescription.swift */,
-				46EB2E00000270 /* NiceContentItemRepresentable.swift */,
-				46EB2E000001D0 /* NiceContentStyle.swift */,
-				46EB2E000002C0 /* NiceDeletableItem.swift */,
-				46EB2E000002D0 /* NiceKeyboardAvoidingTableView.swift */,
-				46EB2E00000280 /* NiceLookupItem.swift */,
-				46EB2E000001E0 /* NiceSectionStyle.swift */,
-				46EB2E00000290 /* NiceSwitchItem.swift */,
-				46EB2E000001C0 /* NiceTable.h */,
-				46EB2E000002E0 /* NiceTableCell.swift */,
-				46EB2E000002F0 /* NiceTableItem.swift */,
-				46EB2E00000300 /* NiceTableSection.swift */,
-				46EB2E00000310 /* NiceTableView.swift */,
-				46EB2E000002A0 /* NiceTableViewController.swift */,
-				46EB2E000002B0 /* NiceTableViewController.xib */,
-				46EB2E00000120 /* UICollectionView+ScrollTo.swift */,
-				46EB2E00000180 /* UIView+Border.swift */,
-				46EB2E00000190 /* UIView+Bundle.swift */,
-				46EB2E000001A0 /* UIView+CornerRadius.swift */,
-				46EB2E000001B0 /* UIView+Nib.swift */,
-				46EB2E00000910 /* Support Files */,
+				46EB2E00000120 /* NiceCollectionItem.swift */,
+				46EB2E00000130 /* NiceCollectionItemSize.swift */,
+				46EB2E00000140 /* NiceCollectionSection.swift */,
+				46EB2E00000150 /* NiceCollectionView.swift */,
+				46EB2E000000F0 /* NiceCollectionViewController.swift */,
+				46EB2E000001F0 /* NiceContentAccessoryStyle.swift */,
+				46EB2E00000200 /* NiceContentCell.swift */,
+				46EB2E00000210 /* NiceContentItem.swift */,
+				46EB2E00000220 /* NiceContentItemDescription.swift */,
+				46EB2E00000230 /* NiceContentItemRepresentable.swift */,
+				46EB2E000001B0 /* NiceContentStyle.swift */,
+				46EB2E00000270 /* NiceDeletableItem.swift */,
+				46EB2E00000280 /* NiceKeyboardAvoidingTableView.swift */,
+				46EB2E00000240 /* NiceLookupItem.swift */,
+				46EB2E000001C0 /* NiceSectionStyle.swift */,
+				46EB2E00000250 /* NiceSwitchItem.swift */,
+				46EB2E000001A0 /* NiceTable.h */,
+				46EB2E00000290 /* NiceTableCell.swift */,
+				46EB2E000002A0 /* NiceTableItem.swift */,
+				46EB2E000002B0 /* NiceTableSection.swift */,
+				46EB2E000002C0 /* NiceTableView.swift */,
+				46EB2E00000260 /* NiceTableViewController.swift */,
+				46EB2E00000100 /* UICollectionView+ScrollTo.swift */,
+				46EB2E00000160 /* UIView+Border.swift */,
+				46EB2E00000170 /* UIView+Bundle.swift */,
+				46EB2E00000180 /* UIView+CornerRadius.swift */,
+				46EB2E00000190 /* UIView+Nib.swift */,
+				46EB2E00000600 /* Resources */,
+				46EB2E000008D0 /* Support Files */,
 			);
 			name = NiceTable;
 			path = NiceTable;
@@ -360,135 +352,148 @@
 		46EB2E000000C0 /* PromiseKit */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000320 /* CorePromise */,
-				46EB2E00000500 /* Foundation */,
-				46EB2E00000D30 /* Support Files */,
-				46EB2E000005D0 /* UIKit */,
+				46EB2E000002D0 /* CorePromise */,
+				46EB2E000004B0 /* Foundation */,
+				46EB2E00000CF0 /* Support Files */,
+				46EB2E00000580 /* UIKit */,
 			);
 			name = PromiseKit;
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
-		46EB2E00000320 /* CorePromise */ = {
+		46EB2E000002D0 /* CorePromise */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000460 /* after.m */,
-				46EB2E00000410 /* after.swift */,
-				46EB2E000004D0 /* AnyPromise.h */,
-				46EB2E00000470 /* AnyPromise.m */,
-				46EB2E00000330 /* AnyPromise.swift */,
-				46EB2E00000340 /* Async.swift */,
-				46EB2E00000350 /* Box.swift */,
-				46EB2E00000360 /* Catchable.swift */,
-				46EB2E00000370 /* Combine.swift */,
-				46EB2E00000380 /* Configuration.swift */,
-				46EB2E00000390 /* CustomStringConvertible.swift */,
-				46EB2E000003A0 /* Deprecations.swift */,
-				46EB2E00000480 /* dispatch_promise.m */,
-				46EB2E000003B0 /* Error.swift */,
-				46EB2E00000420 /* firstly.swift */,
-				46EB2E000004F0 /* fwd.h */,
-				46EB2E000003C0 /* Guarantee.swift */,
-				46EB2E00000490 /* hang.m */,
-				46EB2E00000430 /* hang.swift */,
-				46EB2E000004A0 /* join.m */,
-				46EB2E000003D0 /* LogEvent.swift */,
-				46EB2E000003E0 /* Promise.swift */,
-				46EB2E000004E0 /* PromiseKit.h */,
-				46EB2E000004B0 /* race.m */,
-				46EB2E00000440 /* race.swift */,
-				46EB2E000003F0 /* Resolver.swift */,
-				46EB2E00000400 /* Thenable.swift */,
-				46EB2E000004C0 /* when.m */,
-				46EB2E00000450 /* when.swift */,
+				46EB2E00000410 /* after.m */,
+				46EB2E000003C0 /* after.swift */,
+				46EB2E00000480 /* AnyPromise.h */,
+				46EB2E00000420 /* AnyPromise.m */,
+				46EB2E000002E0 /* AnyPromise.swift */,
+				46EB2E000002F0 /* Async.swift */,
+				46EB2E00000300 /* Box.swift */,
+				46EB2E00000310 /* Catchable.swift */,
+				46EB2E00000320 /* Combine.swift */,
+				46EB2E00000330 /* Configuration.swift */,
+				46EB2E00000340 /* CustomStringConvertible.swift */,
+				46EB2E00000350 /* Deprecations.swift */,
+				46EB2E00000430 /* dispatch_promise.m */,
+				46EB2E00000360 /* Error.swift */,
+				46EB2E000003D0 /* firstly.swift */,
+				46EB2E000004A0 /* fwd.h */,
+				46EB2E00000370 /* Guarantee.swift */,
+				46EB2E00000440 /* hang.m */,
+				46EB2E000003E0 /* hang.swift */,
+				46EB2E00000450 /* join.m */,
+				46EB2E00000380 /* LogEvent.swift */,
+				46EB2E00000390 /* Promise.swift */,
+				46EB2E00000490 /* PromiseKit.h */,
+				46EB2E00000460 /* race.m */,
+				46EB2E000003F0 /* race.swift */,
+				46EB2E000003A0 /* Resolver.swift */,
+				46EB2E000003B0 /* Thenable.swift */,
+				46EB2E00000470 /* when.m */,
+				46EB2E00000400 /* when.swift */,
 			);
 			name = CorePromise;
 			sourceTree = "<group>";
 		};
-		46EB2E00000500 /* Foundation */ = {
+		46EB2E000004B0 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000005C0 /* afterlife.swift */,
-				46EB2E00000510 /* NSNotificationCenter+AnyPromise.h */,
-				46EB2E00000520 /* NSNotificationCenter+AnyPromise.m */,
-				46EB2E00000530 /* NSNotificationCenter+Promise.swift */,
-				46EB2E00000540 /* NSObject+Promise.swift */,
-				46EB2E00000550 /* NSTask+AnyPromise.h */,
-				46EB2E00000560 /* NSTask+AnyPromise.m */,
-				46EB2E00000570 /* NSURLSession+AnyPromise.h */,
-				46EB2E00000580 /* NSURLSession+AnyPromise.m */,
-				46EB2E00000590 /* NSURLSession+Promise.swift */,
-				46EB2E000005A0 /* PMKFoundation.h */,
-				46EB2E000005B0 /* Process+Promise.swift */,
+				46EB2E00000570 /* afterlife.swift */,
+				46EB2E000004C0 /* NSNotificationCenter+AnyPromise.h */,
+				46EB2E000004D0 /* NSNotificationCenter+AnyPromise.m */,
+				46EB2E000004E0 /* NSNotificationCenter+Promise.swift */,
+				46EB2E000004F0 /* NSObject+Promise.swift */,
+				46EB2E00000500 /* NSTask+AnyPromise.h */,
+				46EB2E00000510 /* NSTask+AnyPromise.m */,
+				46EB2E00000520 /* NSURLSession+AnyPromise.h */,
+				46EB2E00000530 /* NSURLSession+AnyPromise.m */,
+				46EB2E00000540 /* NSURLSession+Promise.swift */,
+				46EB2E00000550 /* PMKFoundation.h */,
+				46EB2E00000560 /* Process+Promise.swift */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
 		};
-		46EB2E000005D0 /* UIKit */ = {
+		46EB2E00000580 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000005E0 /* PMKUIKit.h */,
-				46EB2E000005F0 /* UIView+AnyPromise.h */,
-				46EB2E00000600 /* UIView+AnyPromise.m */,
-				46EB2E00000610 /* UIView+Promise.swift */,
-				46EB2E00000620 /* UIViewController+AnyPromise.h */,
-				46EB2E00000630 /* UIViewController+AnyPromise.m */,
-				46EB2E00000640 /* UIViewPropertyAnimator+Promise.swift */,
+				46EB2E00000590 /* PMKUIKit.h */,
+				46EB2E000005A0 /* UIView+AnyPromise.h */,
+				46EB2E000005B0 /* UIView+AnyPromise.m */,
+				46EB2E000005C0 /* UIView+Promise.swift */,
+				46EB2E000005D0 /* UIViewController+AnyPromise.h */,
+				46EB2E000005E0 /* UIViewController+AnyPromise.m */,
+				46EB2E000005F0 /* UIViewPropertyAnimator+Promise.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		46EB2E00000910 /* Support Files */ = {
+		46EB2E00000600 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000940 /* NiceTable.modulemap */,
-				46EB2E00000990 /* NiceTable-dummy.m */,
-				46EB2E00000980 /* NiceTable-prefix.pch */,
-				46EB2E00000950 /* NiceTable-umbrella.h */,
-				46EB2E00000920 /* NiceTable.debug.xcconfig */,
-				46EB2E00000930 /* NiceTable.release.xcconfig */,
+				46EB2E00000610 /* NiceButtonCell.xib */,
+				46EB2E00000620 /* NiceCollectionHeaderView.xib */,
+				46EB2E00000630 /* NiceCollectionViewController.xib */,
+				46EB2E00000640 /* NiceContentCell.xib */,
+				46EB2E00000650 /* NiceTableViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46EB2E000008D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000900 /* NiceTable.modulemap */,
+				46EB2E00000950 /* NiceTable-dummy.m */,
+				46EB2E00000940 /* NiceTable-prefix.pch */,
+				46EB2E00000910 /* NiceTable-umbrella.h */,
+				46EB2E000008E0 /* NiceTable.debug.xcconfig */,
+				46EB2E000008F0 /* NiceTable.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/NiceTable";
 			sourceTree = "<group>";
 		};
-		46EB2E00000D30 /* Support Files */ = {
+		46EB2E00000CF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000D60 /* PromiseKit.modulemap */,
-				46EB2E00000DB0 /* PromiseKit-dummy.m */,
-				46EB2E00000DA0 /* PromiseKit-prefix.pch */,
-				46EB2E00000D70 /* PromiseKit-umbrella.h */,
-				46EB2E00000D40 /* PromiseKit.debug.xcconfig */,
-				46EB2E00000D50 /* PromiseKit.release.xcconfig */,
+				46EB2E00000D20 /* PromiseKit.modulemap */,
+				46EB2E00000D70 /* PromiseKit-dummy.m */,
+				46EB2E00000D60 /* PromiseKit-prefix.pch */,
+				46EB2E00000D30 /* PromiseKit-umbrella.h */,
+				46EB2E00000D00 /* PromiseKit.debug.xcconfig */,
+				46EB2E00000D10 /* PromiseKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PromiseKit";
 			sourceTree = "<group>";
 		};
-		46EB2E00000E50 /* Pods-RnMUniverse */ = {
+		46EB2E00000E10 /* Pods-RnMUniverse */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000E80 /* Pods-RnMUniverse.modulemap */,
-				46EB2E00000EC0 /* Pods-RnMUniverse-acknowledgements.markdown */,
-				46EB2E00000EB0 /* Pods-RnMUniverse-acknowledgements.plist */,
-				46EB2E00000ED0 /* Pods-RnMUniverse-dummy.m */,
-				46EB2E00000E90 /* Pods-RnMUniverse-umbrella.h */,
-				46EB2E00000E70 /* Pods-RnMUniverse.debug.xcconfig */,
-				46EB2E00000E60 /* Pods-RnMUniverse.release.xcconfig */,
+				46EB2E00000E40 /* Pods-RnMUniverse.modulemap */,
+				46EB2E00000E90 /* Pods-RnMUniverse-acknowledgements.markdown */,
+				46EB2E00000E80 /* Pods-RnMUniverse-acknowledgements.plist */,
+				46EB2E00000EA0 /* Pods-RnMUniverse-dummy.m */,
+				46EB2E00000E70 /* Pods-RnMUniverse-resources.sh */,
+				46EB2E00000E50 /* Pods-RnMUniverse-umbrella.h */,
+				46EB2E00000E30 /* Pods-RnMUniverse.debug.xcconfig */,
+				46EB2E00000E20 /* Pods-RnMUniverse.release.xcconfig */,
 			);
 			name = "Pods-RnMUniverse";
 			path = "Target Support Files/Pods-RnMUniverse";
 			sourceTree = "<group>";
 		};
-		46EB2E00000F70 /* Pods-RnMUniverseTests */ = {
+		46EB2E00000F40 /* Pods-RnMUniverseTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000FB0 /* Pods-RnMUniverseTests-acknowledgements.markdown */,
-				46EB2E00000FA0 /* Pods-RnMUniverseTests-acknowledgements.plist */,
-				46EB2E00000FC0 /* Pods-RnMUniverseTests-dummy.m */,
-				46EB2E00000F90 /* Pods-RnMUniverseTests.debug.xcconfig */,
-				46EB2E00000F80 /* Pods-RnMUniverseTests.release.xcconfig */,
+				46EB2E00000F80 /* Pods-RnMUniverseTests-acknowledgements.markdown */,
+				46EB2E00000F70 /* Pods-RnMUniverseTests-acknowledgements.plist */,
+				46EB2E00000F90 /* Pods-RnMUniverseTests-dummy.m */,
+				46EB2E00000F60 /* Pods-RnMUniverseTests.debug.xcconfig */,
+				46EB2E00000F50 /* Pods-RnMUniverseTests.release.xcconfig */,
 			);
 			name = "Pods-RnMUniverseTests";
 			path = "Target Support Files/Pods-RnMUniverseTests";
@@ -497,42 +502,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E000006A0 /* Headers */ = {
+		46EB2E000006B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000008B0 /* NiceTable.h in Headers */,
-				46EB2E00000960 /* NiceTable-umbrella.h in Headers */,
+				46EB2E000008C0 /* NiceTable.h in Headers */,
+				46EB2E00000920 /* NiceTable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000A00 /* Headers */ = {
+		46EB2E000009C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000BD0 /* AnyPromise.h in Headers */,
-				46EB2E00000BF0 /* fwd.h in Headers */,
-				46EB2E00000C80 /* NSNotificationCenter+AnyPromise.h in Headers */,
-				46EB2E00000C90 /* NSTask+AnyPromise.h in Headers */,
-				46EB2E00000CA0 /* NSURLSession+AnyPromise.h in Headers */,
-				46EB2E00000CB0 /* PMKFoundation.h in Headers */,
-				46EB2E00000D00 /* PMKUIKit.h in Headers */,
-				46EB2E00000BE0 /* PromiseKit.h in Headers */,
-				46EB2E00000D80 /* PromiseKit-umbrella.h in Headers */,
-				46EB2E00000D10 /* UIView+AnyPromise.h in Headers */,
-				46EB2E00000D20 /* UIViewController+AnyPromise.h in Headers */,
+				46EB2E00000B90 /* AnyPromise.h in Headers */,
+				46EB2E00000BB0 /* fwd.h in Headers */,
+				46EB2E00000C40 /* NSNotificationCenter+AnyPromise.h in Headers */,
+				46EB2E00000C50 /* NSTask+AnyPromise.h in Headers */,
+				46EB2E00000C60 /* NSURLSession+AnyPromise.h in Headers */,
+				46EB2E00000C70 /* PMKFoundation.h in Headers */,
+				46EB2E00000CC0 /* PMKUIKit.h in Headers */,
+				46EB2E00000BA0 /* PromiseKit.h in Headers */,
+				46EB2E00000D40 /* PromiseKit-umbrella.h in Headers */,
+				46EB2E00000CD0 /* UIView+AnyPromise.h in Headers */,
+				46EB2E00000CE0 /* UIViewController+AnyPromise.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000E20 /* Headers */ = {
+		46EB2E00000DE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000EA0 /* Pods-RnMUniverse-umbrella.h in Headers */,
+				46EB2E00000E60 /* Pods-RnMUniverse-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000F40 /* Headers */ = {
+		46EB2E00000F10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -544,17 +549,17 @@
 /* Begin PBXNativeTarget section */
 		1728ACAD2F953D12A09E4FC7B111234F /* Pods-RnMUniverse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000DE0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse" */;
+			buildConfigurationList = 46EB2E00000DA0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse" */;
 			buildPhases = (
-				46EB2E00000E20 /* Headers */,
-				46EB2E00000E30 /* Sources */,
-				46EB2E00000E40 /* Frameworks */,
+				46EB2E00000DE0 /* Headers */,
+				46EB2E00000DF0 /* Sources */,
+				46EB2E00000E00 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000FF0 /* PBXTargetDependency */,
-				46EB2E00001010 /* PBXTargetDependency */,
+				46EB2E00000FC0 /* PBXTargetDependency */,
+				46EB2E00000FE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-RnMUniverse";
 			productName = "Pods-RnMUniverse";
@@ -563,12 +568,12 @@
 		};
 		7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000009C0 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildConfigurationList = 46EB2E00000980 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
 			buildPhases = (
-				46EB2E00000A00 /* Headers */,
-				46EB2E00000A10 /* Sources */,
-				46EB2E00000A20 /* Frameworks */,
-				46EB2E00000D90 /* Copy generated compatibility header */,
+				46EB2E000009C0 /* Headers */,
+				46EB2E000009D0 /* Sources */,
+				46EB2E000009E0 /* Frameworks */,
+				46EB2E00000D50 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -581,11 +586,11 @@
 		};
 		A0FABCE1C46CE6479D39C62AFFD3BA87 /* Pods-RnMUniverseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000F00 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */;
+			buildConfigurationList = 46EB2E00000ED0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */;
 			buildPhases = (
-				46EB2E00000F40 /* Headers */,
-				46EB2E00000F50 /* Sources */,
-				46EB2E00000F60 /* Frameworks */,
+				46EB2E00000F10 /* Headers */,
+				46EB2E00000F20 /* Sources */,
+				46EB2E00000F30 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -598,12 +603,12 @@
 		};
 		AFFD20DDF0254BB37ABE254AB28BA52B /* NiceTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000660 /* Build configuration list for PBXNativeTarget "NiceTable" */;
+			buildConfigurationList = 46EB2E00000670 /* Build configuration list for PBXNativeTarget "NiceTable" */;
 			buildPhases = (
-				46EB2E000006A0 /* Headers */,
-				46EB2E000006B0 /* Sources */,
-				46EB2E000006C0 /* Frameworks */,
-				46EB2E00000970 /* Copy generated compatibility header */,
+				46EB2E000006B0 /* Headers */,
+				46EB2E000006C0 /* Sources */,
+				46EB2E000006D0 /* Frameworks */,
+				46EB2E00000930 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -645,7 +650,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		46EB2E00000970 /* Copy generated compatibility header */ = {
+		46EB2E00000930 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -669,7 +674,7 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NiceTable/NiceTable.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NiceTable/NiceTable-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-		46EB2E00000D90 /* Copy generated compatibility header */ = {
+		46EB2E00000D50 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -696,125 +701,120 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E000006B0 /* Sources */ = {
+		46EB2E000006C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000007B0 /* NiceButtonCell.swift in Sources */,
-				46EB2E000008E0 /* NiceButtonCell.xib in Sources */,
-				46EB2E000007C0 /* NiceButtonItem.swift in Sources */,
-				46EB2E00000700 /* NiceCollectionCell.swift in Sources */,
-				46EB2E000006D0 /* NiceCollectionHeaderView.swift in Sources */,
-				46EB2E000008C0 /* NiceCollectionHeaderView.xib in Sources */,
-				46EB2E00000710 /* NiceCollectionItem.swift in Sources */,
-				46EB2E00000720 /* NiceCollectionItemSize.swift in Sources */,
-				46EB2E00000730 /* NiceCollectionSection.swift in Sources */,
-				46EB2E00000740 /* NiceCollectionView.swift in Sources */,
-				46EB2E000006E0 /* NiceCollectionViewController.swift in Sources */,
-				46EB2E000008D0 /* NiceCollectionViewController.xib in Sources */,
-				46EB2E000007D0 /* NiceContentAccessoryStyle.swift in Sources */,
-				46EB2E000007E0 /* NiceContentCell.swift in Sources */,
-				46EB2E000008F0 /* NiceContentCell.xib in Sources */,
-				46EB2E000007F0 /* NiceContentItem.swift in Sources */,
-				46EB2E00000800 /* NiceContentItemDescription.swift in Sources */,
-				46EB2E00000810 /* NiceContentItemRepresentable.swift in Sources */,
-				46EB2E00000790 /* NiceContentStyle.swift in Sources */,
-				46EB2E00000850 /* NiceDeletableItem.swift in Sources */,
-				46EB2E00000860 /* NiceKeyboardAvoidingTableView.swift in Sources */,
-				46EB2E00000820 /* NiceLookupItem.swift in Sources */,
-				46EB2E000007A0 /* NiceSectionStyle.swift in Sources */,
-				46EB2E00000830 /* NiceSwitchItem.swift in Sources */,
-				46EB2E000009A0 /* NiceTable-dummy.m in Sources */,
-				46EB2E00000870 /* NiceTableCell.swift in Sources */,
-				46EB2E00000880 /* NiceTableItem.swift in Sources */,
-				46EB2E00000890 /* NiceTableSection.swift in Sources */,
-				46EB2E000008A0 /* NiceTableView.swift in Sources */,
-				46EB2E00000840 /* NiceTableViewController.swift in Sources */,
-				46EB2E00000900 /* NiceTableViewController.xib in Sources */,
-				46EB2E000006F0 /* UICollectionView+ScrollTo.swift in Sources */,
-				46EB2E00000750 /* UIView+Border.swift in Sources */,
-				46EB2E00000760 /* UIView+Bundle.swift in Sources */,
-				46EB2E00000770 /* UIView+CornerRadius.swift in Sources */,
-				46EB2E00000780 /* UIView+Nib.swift in Sources */,
+				46EB2E000007C0 /* NiceButtonCell.swift in Sources */,
+				46EB2E000007D0 /* NiceButtonItem.swift in Sources */,
+				46EB2E00000710 /* NiceCollectionCell.swift in Sources */,
+				46EB2E000006E0 /* NiceCollectionHeaderView.swift in Sources */,
+				46EB2E00000720 /* NiceCollectionItem.swift in Sources */,
+				46EB2E00000730 /* NiceCollectionItemSize.swift in Sources */,
+				46EB2E00000740 /* NiceCollectionSection.swift in Sources */,
+				46EB2E00000750 /* NiceCollectionView.swift in Sources */,
+				46EB2E000006F0 /* NiceCollectionViewController.swift in Sources */,
+				46EB2E000007E0 /* NiceContentAccessoryStyle.swift in Sources */,
+				46EB2E000007F0 /* NiceContentCell.swift in Sources */,
+				46EB2E00000800 /* NiceContentItem.swift in Sources */,
+				46EB2E00000810 /* NiceContentItemDescription.swift in Sources */,
+				46EB2E00000820 /* NiceContentItemRepresentable.swift in Sources */,
+				46EB2E000007A0 /* NiceContentStyle.swift in Sources */,
+				46EB2E00000860 /* NiceDeletableItem.swift in Sources */,
+				46EB2E00000870 /* NiceKeyboardAvoidingTableView.swift in Sources */,
+				46EB2E00000830 /* NiceLookupItem.swift in Sources */,
+				46EB2E000007B0 /* NiceSectionStyle.swift in Sources */,
+				46EB2E00000840 /* NiceSwitchItem.swift in Sources */,
+				46EB2E00000960 /* NiceTable-dummy.m in Sources */,
+				46EB2E00000880 /* NiceTableCell.swift in Sources */,
+				46EB2E00000890 /* NiceTableItem.swift in Sources */,
+				46EB2E000008A0 /* NiceTableSection.swift in Sources */,
+				46EB2E000008B0 /* NiceTableView.swift in Sources */,
+				46EB2E00000850 /* NiceTableViewController.swift in Sources */,
+				46EB2E00000700 /* UICollectionView+ScrollTo.swift in Sources */,
+				46EB2E00000760 /* UIView+Border.swift in Sources */,
+				46EB2E00000770 /* UIView+Bundle.swift in Sources */,
+				46EB2E00000780 /* UIView+CornerRadius.swift in Sources */,
+				46EB2E00000790 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000A10 /* Sources */ = {
+		46EB2E000009D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000A30 /* after.m in Sources */,
-				46EB2E00000B80 /* after.swift in Sources */,
-				46EB2E00000C70 /* afterlife.swift in Sources */,
-				46EB2E00000A40 /* AnyPromise.m in Sources */,
-				46EB2E00000AA0 /* AnyPromise.swift in Sources */,
-				46EB2E00000AB0 /* Async.swift in Sources */,
-				46EB2E00000AC0 /* Box.swift in Sources */,
-				46EB2E00000AD0 /* Catchable.swift in Sources */,
-				46EB2E00000AE0 /* Combine.swift in Sources */,
-				46EB2E00000AF0 /* Configuration.swift in Sources */,
-				46EB2E00000B00 /* CustomStringConvertible.swift in Sources */,
-				46EB2E00000B10 /* Deprecations.swift in Sources */,
-				46EB2E00000A50 /* dispatch_promise.m in Sources */,
-				46EB2E00000B20 /* Error.swift in Sources */,
-				46EB2E00000B90 /* firstly.swift in Sources */,
-				46EB2E00000B30 /* Guarantee.swift in Sources */,
-				46EB2E00000A60 /* hang.m in Sources */,
-				46EB2E00000BA0 /* hang.swift in Sources */,
-				46EB2E00000A70 /* join.m in Sources */,
-				46EB2E00000B40 /* LogEvent.swift in Sources */,
-				46EB2E00000C00 /* NSNotificationCenter+AnyPromise.m in Sources */,
-				46EB2E00000C30 /* NSNotificationCenter+Promise.swift in Sources */,
-				46EB2E00000C40 /* NSObject+Promise.swift in Sources */,
-				46EB2E00000C10 /* NSTask+AnyPromise.m in Sources */,
-				46EB2E00000C20 /* NSURLSession+AnyPromise.m in Sources */,
-				46EB2E00000C50 /* NSURLSession+Promise.swift in Sources */,
-				46EB2E00000C60 /* Process+Promise.swift in Sources */,
-				46EB2E00000B50 /* Promise.swift in Sources */,
-				46EB2E00000DC0 /* PromiseKit-dummy.m in Sources */,
-				46EB2E00000A80 /* race.m in Sources */,
-				46EB2E00000BB0 /* race.swift in Sources */,
-				46EB2E00000B60 /* Resolver.swift in Sources */,
-				46EB2E00000B70 /* Thenable.swift in Sources */,
-				46EB2E00000CC0 /* UIView+AnyPromise.m in Sources */,
-				46EB2E00000CE0 /* UIView+Promise.swift in Sources */,
-				46EB2E00000CD0 /* UIViewController+AnyPromise.m in Sources */,
-				46EB2E00000CF0 /* UIViewPropertyAnimator+Promise.swift in Sources */,
-				46EB2E00000A90 /* when.m in Sources */,
-				46EB2E00000BC0 /* when.swift in Sources */,
+				46EB2E000009F0 /* after.m in Sources */,
+				46EB2E00000B40 /* after.swift in Sources */,
+				46EB2E00000C30 /* afterlife.swift in Sources */,
+				46EB2E00000A00 /* AnyPromise.m in Sources */,
+				46EB2E00000A60 /* AnyPromise.swift in Sources */,
+				46EB2E00000A70 /* Async.swift in Sources */,
+				46EB2E00000A80 /* Box.swift in Sources */,
+				46EB2E00000A90 /* Catchable.swift in Sources */,
+				46EB2E00000AA0 /* Combine.swift in Sources */,
+				46EB2E00000AB0 /* Configuration.swift in Sources */,
+				46EB2E00000AC0 /* CustomStringConvertible.swift in Sources */,
+				46EB2E00000AD0 /* Deprecations.swift in Sources */,
+				46EB2E00000A10 /* dispatch_promise.m in Sources */,
+				46EB2E00000AE0 /* Error.swift in Sources */,
+				46EB2E00000B50 /* firstly.swift in Sources */,
+				46EB2E00000AF0 /* Guarantee.swift in Sources */,
+				46EB2E00000A20 /* hang.m in Sources */,
+				46EB2E00000B60 /* hang.swift in Sources */,
+				46EB2E00000A30 /* join.m in Sources */,
+				46EB2E00000B00 /* LogEvent.swift in Sources */,
+				46EB2E00000BC0 /* NSNotificationCenter+AnyPromise.m in Sources */,
+				46EB2E00000BF0 /* NSNotificationCenter+Promise.swift in Sources */,
+				46EB2E00000C00 /* NSObject+Promise.swift in Sources */,
+				46EB2E00000BD0 /* NSTask+AnyPromise.m in Sources */,
+				46EB2E00000BE0 /* NSURLSession+AnyPromise.m in Sources */,
+				46EB2E00000C10 /* NSURLSession+Promise.swift in Sources */,
+				46EB2E00000C20 /* Process+Promise.swift in Sources */,
+				46EB2E00000B10 /* Promise.swift in Sources */,
+				46EB2E00000D80 /* PromiseKit-dummy.m in Sources */,
+				46EB2E00000A40 /* race.m in Sources */,
+				46EB2E00000B70 /* race.swift in Sources */,
+				46EB2E00000B20 /* Resolver.swift in Sources */,
+				46EB2E00000B30 /* Thenable.swift in Sources */,
+				46EB2E00000C80 /* UIView+AnyPromise.m in Sources */,
+				46EB2E00000CA0 /* UIView+Promise.swift in Sources */,
+				46EB2E00000C90 /* UIViewController+AnyPromise.m in Sources */,
+				46EB2E00000CB0 /* UIViewPropertyAnimator+Promise.swift in Sources */,
+				46EB2E00000A50 /* when.m in Sources */,
+				46EB2E00000B80 /* when.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000E30 /* Sources */ = {
+		46EB2E00000DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000EE0 /* Pods-RnMUniverse-dummy.m in Sources */,
+				46EB2E00000EB0 /* Pods-RnMUniverse-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000F50 /* Sources */ = {
+		46EB2E00000F20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000FD0 /* Pods-RnMUniverseTests-dummy.m in Sources */,
+				46EB2E00000FA0 /* Pods-RnMUniverseTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00000FF0 /* PBXTargetDependency */ = {
+		46EB2E00000FC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NiceTable;
 			target = AFFD20DDF0254BB37ABE254AB28BA52B /* NiceTable */;
-			targetProxy = 46EB2E00000FE0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000FB0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00001010 /* PBXTargetDependency */ = {
+		46EB2E00000FE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
 			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 46EB2E00001000 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000FD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -947,9 +947,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000670 /* Release */ = {
+		46EB2E00000680 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000930 /* NiceTable.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000008F0 /* NiceTable.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -973,9 +973,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000680 /* Debug */ = {
+		46EB2E00000690 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000920 /* NiceTable.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000008E0 /* NiceTable.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -998,9 +998,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000009D0 /* Release */ = {
+		46EB2E00000990 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000D50 /* PromiseKit.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000D10 /* PromiseKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1024,9 +1024,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000009E0 /* Debug */ = {
+		46EB2E000009A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000D40 /* PromiseKit.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000D00 /* PromiseKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1049,9 +1049,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000DF0 /* Release */ = {
+		46EB2E00000DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E60 /* Pods-RnMUniverse.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000E20 /* Pods-RnMUniverse.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1072,9 +1072,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000E00 /* Debug */ = {
+		46EB2E00000DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000E70 /* Pods-RnMUniverse.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000E30 /* Pods-RnMUniverse.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1094,9 +1094,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000F10 /* Release */ = {
+		46EB2E00000EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000F80 /* Pods-RnMUniverseTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000F50 /* Pods-RnMUniverseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1116,9 +1116,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000F20 /* Debug */ = {
+		46EB2E00000EF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000F90 /* Pods-RnMUniverseTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000F60 /* Pods-RnMUniverseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1149,38 +1149,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000660 /* Build configuration list for PBXNativeTarget "NiceTable" */ = {
+		46EB2E00000670 /* Build configuration list for PBXNativeTarget "NiceTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000680 /* Debug */,
-				46EB2E00000670 /* Release */,
+				46EB2E00000690 /* Debug */,
+				46EB2E00000680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000009C0 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+		46EB2E00000980 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000009E0 /* Debug */,
-				46EB2E000009D0 /* Release */,
+				46EB2E000009A0 /* Debug */,
+				46EB2E00000990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000DE0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse" */ = {
+		46EB2E00000DA0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000E00 /* Debug */,
-				46EB2E00000DF0 /* Release */,
+				46EB2E00000DC0 /* Debug */,
+				46EB2E00000DB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000F00 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */ = {
+		46EB2E00000ED0 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000F20 /* Debug */,
-				46EB2E00000F10 /* Release */,
+				46EB2E00000EF0 /* Debug */,
+				46EB2E00000EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

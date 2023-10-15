@@ -5,8 +5,13 @@ platform :ios, '12.0'
 
 install! 'cocoapods', :deterministic_uuids => false
 
+def nicetable_location
+  { :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'main' }
+#  { :path => '../nice-table' }
+end
+
 def product_pods
-  pod 'NiceTable', :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'main'
+  pod 'NiceTable', nicetable_location
   pod "PromiseKit", "~> 8"
 end
 

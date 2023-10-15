@@ -1,1 +1,1 @@
-../../../NiceTable/NiceTable/Classes/NiceTable.h
+../../../NiceTable/NiceTable/Sources/NiceTable.h

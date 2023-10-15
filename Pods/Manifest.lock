@@ -25,13 +25,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NiceTable:
-    :commit: b0a934fecc472e7397b7c34349cc43afbddc1c9d
+    :commit: f291b11f2725fcc506fdce692d5586fc006642e4
     :git: "git@github.com:frizeiro/nice-table.git"
 
 SPEC CHECKSUMS:
-  NiceTable: eedb25ae14e42e72cb61fcc54a7e45e15a18a134
+  NiceTable: eaeb018474b5c00b67b50a68814ca339093a6e27
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
 
-PODFILE CHECKSUM: ed034abdc836c58c41085284416e09e2f6e384fc
+PODFILE CHECKSUM: 3b1a2fdcba6951c74120dd49a022e8455727fc80
 
 COCOAPODS: 1.12.0
