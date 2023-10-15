@@ -9,14 +9,19 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (8.1.1):
     - PromiseKit/CorePromise
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
 
 DEPENDENCIES:
   - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `main`)"
   - PromiseKit (~> 8)
+  - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - PromiseKit
+    - SDWebImage
 
 EXTERNAL SOURCES:
   NiceTable:
@@ -31,7 +36,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   NiceTable: eaeb018474b5c00b67b50a68814ca339093a6e27
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
 
-PODFILE CHECKSUM: 3b1a2fdcba6951c74120dd49a022e8455727fc80
+PODFILE CHECKSUM: 478e1a181d91b9cd37ba7cd5cb3fadb25cc1a6db
 
 COCOAPODS: 1.12.0

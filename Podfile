@@ -13,6 +13,7 @@ end
 def product_pods
   pod 'NiceTable', nicetable_location
   pod "PromiseKit", "~> 8"
+  pod 'SDWebImage', "~> 5.0", :modular_headers => true
 end
 
 target 'RnMUniverse' do
