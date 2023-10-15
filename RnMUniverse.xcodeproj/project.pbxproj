@@ -13,6 +13,8 @@
 		55B770DA2ADB3912008907B9 /* CharacterCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B770D92ADB3912008907B9 /* CharacterCollectionItem.swift */; };
 		55B770DC2ADB391D008907B9 /* CharacterCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B770DB2ADB391D008907B9 /* CharacterCollectionItemCell.swift */; };
 		55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B770DD2ADB396C008907B9 /* CharacterCollectionItemCell.xib */; };
+		55DCF80F2ADC37C200A3251D /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCF80E2ADC37C200A3251D /* CharactersViewModel.swift */; };
+		55DCF8112ADC497C00A3251D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCF8102ADC497C00A3251D /* BaseViewModel.swift */; };
 		55F105132ADADA9000979F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105122ADADA9000979F90 /* AppDelegate.swift */; };
 		55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105142ADADA9000979F90 /* SceneDelegate.swift */; };
 		55F105172ADADA9000979F90 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105162ADADA9000979F90 /* CharactersViewController.swift */; };
@@ -69,6 +71,8 @@
 		55B770D92ADB3912008907B9 /* CharacterCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionItem.swift; sourceTree = "<group>"; };
 		55B770DB2ADB391D008907B9 /* CharacterCollectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionItemCell.swift; sourceTree = "<group>"; };
 		55B770DD2ADB396C008907B9 /* CharacterCollectionItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionItemCell.xib; sourceTree = "<group>"; };
+		55DCF80E2ADC37C200A3251D /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		55DCF8102ADC497C00A3251D /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		55F1050F2ADADA9000979F90 /* RnMUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnMUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F105122ADADA9000979F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55F105142ADADA9000979F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 		55F105492ADAE08F00979F90 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				55DCF8102ADC497C00A3251D /* BaseViewModel.swift */,
+				55DCF80E2ADC37C200A3251D /* CharactersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -581,6 +587,7 @@
 				55F105572ADAE94A00979F90 /* CharactersResponse.swift in Sources */,
 				55F105532ADAE51900979F90 /* Method.swift in Sources */,
 				55F105722ADB19F800979F90 /* Data+Support.swift in Sources */,
+				55DCF80F2ADC37C200A3251D /* CharactersViewModel.swift in Sources */,
 				55F105132ADADA9000979F90 /* AppDelegate.swift in Sources */,
 				55F105762ADB1A7800979F90 /* NetworkError.swift in Sources */,
 				55F105742ADB1A2400979F90 /* DateFormatter+Standards.swift in Sources */,
@@ -595,6 +602,7 @@
 				55F105782ADB25E500979F90 /* ErrorResponse.swift in Sources */,
 				55B770DC2ADB391D008907B9 /* CharacterCollectionItemCell.swift in Sources */,
 				55F105672ADAF08600979F90 /* ServerClient.swift in Sources */,
+				55DCF8112ADC497C00A3251D /* BaseViewModel.swift in Sources */,
 				55F1055A2ADAED3100979F90 /* CharacterGender.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
 				55F105602ADAED6E00979F90 /* Origin.swift in Sources */,

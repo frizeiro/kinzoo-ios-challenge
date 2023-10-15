@@ -26,7 +26,11 @@ enum CharacterRequest: Request {
     var parameters: [String : Any] {
         switch self {
             case .fetch(let page, let name):
-                return ["page": page, "name": name]
+                if let name {
+                    return ["page": page, "name": name]
+                } else {
+                    return ["page": page]
+                }
             case .detail(_):
                 return [:]
         }

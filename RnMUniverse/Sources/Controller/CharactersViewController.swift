@@ -10,38 +10,17 @@ import NiceTable
 
 class CharactersViewController: NiceCollectionViewController {
 
+    // MARK: - Private Variables
+    
+    private let viewModel = CharactersViewModel()
+    
     // MARK: - Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupUI()
-        // Do any additional setup after loading the view.
-
-//        DataSource.shared.character.fetch(page: 1, name: "Steve Jobs Rick").done { response in
-//            print(response)
-//        }.catch { error in
-//            print(error)
-//        }.finally {
-//            print("bbbb")
-//        }
-
-        
-//        DataSource.shared.character.fetch(page: 1, name: "Steve Jobs Rick").done { response in
-//            print(response)
-//        }.catch { error in
-//            print(error)
-//        }.finally {
-//            print("bbbb")
-//        }
-        
-        DataSource.shared.character.detail(id: 100).done { response in
-            print(response)
-        }.catch { error in
-            print(error)
-        }.finally {
-            print("bbbb")
-        }
+        setup()
     }
     
     // MARK: - Private Methods
@@ -52,7 +31,28 @@ class CharactersViewController: NiceCollectionViewController {
         
         collectionView?.itemsSize = .estimatedProportional(width: 170, proportionalHeight: 1)
     }
-
-
+    
+    private func setup() {
+        // TODO: network caching
+        
+        viewModel.bind { [weak self] sections in
+            // TODO: empty state
+            self?.collectionView?.sections = sections
+        }
+        
+        viewModel.pagination { [weak self] page, item in
+            // TODO: pagination
+        }
+        
+        viewModel.error { [weak self] page, error in
+            // TODO: handle errors
+        }
+        
+        viewModel.loader { [weak self] loading in
+            // TODO: handle loading
+        }
+        
+        viewModel.fetch()
+    }
+    
 }
-
