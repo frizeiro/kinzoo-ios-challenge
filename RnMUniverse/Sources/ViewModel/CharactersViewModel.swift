@@ -56,7 +56,7 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection, NiceC
     private func sections(
         _ items: [CharacterCollectionItem]
     ) -> [NiceCollectionSection] {
-        return [NiceCollectionSection(items, style: .hidden)]
+        return [NiceCollectionSection(items, style: .noHeader)]
     }
     
 }

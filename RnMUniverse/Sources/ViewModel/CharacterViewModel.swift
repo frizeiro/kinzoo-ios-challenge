@@ -28,7 +28,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection, NiceTableItem> {
             headerItem
         ].compactMap { $0 }
         
-        return NiceTableSection(items)
+        return NiceTableSection(items, style: .noHeader)
     }()
     
     private lazy var detailsSection: NiceTableSection = {

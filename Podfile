@@ -6,7 +6,7 @@ platform :ios, '12.0'
 install! 'cocoapods', :deterministic_uuids => false
 
 def nicetable_location
-  { :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'main' }
+  { :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'develop' }
 #  { :path => '../nice-table' }
 end
 

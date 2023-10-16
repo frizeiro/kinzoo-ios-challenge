@@ -14,7 +14,7 @@ PODS:
   - SDWebImage/Core (5.18.3)
 
 DEPENDENCIES:
-  - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `main`)"
+  - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `develop`)"
   - PromiseKit (~> 8)
   - SDWebImage (~> 5.0)
 
@@ -25,12 +25,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   NiceTable:
-    :branch: main
+    :branch: develop
     :git: "git@github.com:frizeiro/nice-table.git"
 
 CHECKOUT OPTIONS:
   NiceTable:
-    :commit: 6fea9c510245f75c031ae17413204eb6970f9437
+    :commit: c95b6de5f8af7a84f4ea95e1730c0e1150d7a6bc
     :git: "git@github.com:frizeiro/nice-table.git"
 
 SPEC CHECKSUMS:
@@ -38,6 +38,6 @@ SPEC CHECKSUMS:
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
 
-PODFILE CHECKSUM: 478e1a181d91b9cd37ba7cd5cb3fadb25cc1a6db
+PODFILE CHECKSUM: 383b3e258842fcc88d9fc80666eb81f263ae51bd
 
 COCOAPODS: 1.12.0

@@ -34,9 +34,9 @@ extension CGFloat {
 
 extension NiceSectionStyle {
     
-    static var hidden: NiceSectionStyle {
+    static var noHeader: NiceSectionStyle {
         var style: NiceSectionStyle = .shared
-        style.isHidden = true
+        style.isHeaderHidden = true
         return style
     }
     
