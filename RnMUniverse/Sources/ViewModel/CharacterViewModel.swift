@@ -13,15 +13,23 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection, NiceTableItem> {
     // MARK: - Private Variables
     
     private(set) var character: Character
-    private var items = [CharacterCollectionItem]()
     
     // MARK: Sections
     
     private var sections: [NiceTableSection] {
         return [
+            headerSection,
             detailsSection
         ]
     }
+    
+    private lazy var headerSection: NiceTableSection = {
+        let items = [
+            headerItem
+        ].compactMap { $0 }
+        
+        return NiceTableSection(items)
+    }()
     
     private lazy var detailsSection: NiceTableSection = {
         let items = [
@@ -38,42 +46,46 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection, NiceTableItem> {
     
     // MARK: Items
     
-    private lazy var statusItem: NiceContentItem? = {
+    private lazy var headerItem: NiceTableItem = {
+        return CharacterHeaderItem(character)
+    }()
+    
+    private lazy var statusItem: NiceTableItem? = {
         return item(
             label: "Status",
             text: character.status.rawValue
         )
     }()
     
-    private lazy var speciesItem: NiceContentItem? = {
+    private lazy var speciesItem: NiceTableItem? = {
         return item(
             label: "Species",
             text: character.species
         )
     }()
     
-    private lazy var typeItem: NiceContentItem? = {
+    private lazy var typeItem: NiceTableItem? = {
         return item(
             label: "Type",
             text: character.type
         )
     }()
     
-    private lazy var genderItem: NiceContentItem? = {
+    private lazy var genderItem: NiceTableItem? = {
         return item(
             label: "Gender",
             text: character.gender.rawValue
         )
     }()
     
-    private lazy var originItem: NiceContentItem? = {
+    private lazy var originItem: NiceTableItem? = {
         return item(
             label: "Origin",
             text: character.origin.name
         )
     }()
     
-    private lazy var locationItem: NiceContentItem? = {
+    private lazy var locationItem: NiceTableItem? = {
         return item(
             label: "Location",
             text: character.location.name
@@ -106,7 +118,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection, NiceTableItem> {
     private func item(
         label: String,
         text: String
-    ) -> NiceContentItem? {
+    ) -> NiceTableItem? {
         guard !text.isEmpty else { return nil }
         
         return NiceContentItem(

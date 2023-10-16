@@ -1,18 +1,17 @@
 //
-//  CharacterCollectionItemCell.swift
+//  CharacterHeaderItemCell.swift
 //  RnMUniverse
 //
-//  Created by Felipe Frizeiro on 14/10/23.
+//  Created by Felipe Frizeiro on 16/10/23.
 //
 
 import Foundation
 import NiceTable
 
-class CharacterCollectionItemCell: NiceCollectionCell {
+class CharacterHeaderItemCell: NiceTableCell {
     
     // MARK: - Private Variables
     
-    @IBOutlet private var nameLabel: UILabel?
     @IBOutlet private var avatarImage: UIImageView?
     
     // MARK: - Life Cycle
@@ -20,17 +19,16 @@ class CharacterCollectionItemCell: NiceCollectionCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        contentView.cornerRadius = .characterCollectionRadius
         avatarImage?.image = .placeholder
     }
     
     // MARK: - Public Methods
     
-    override func setup(_ item: NiceCollectionItem) {
-        guard let item = item as? CharacterCollectionItem else { return }
+    override func setup(_ item: NiceTableItem) {
+        guard let item = item as? CharacterHeaderItem else { return }
         
-        nameLabel?.text = item.name
         avatarImage?.load(from: item.avatar)
     }
     
 }
+
