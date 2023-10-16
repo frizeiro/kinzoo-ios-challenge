@@ -24,10 +24,6 @@ class CharacterCollectionItem: NiceCollectionItem {
         return character.image
     }
     
-    var placeholder: UIImage {
-        return .placeholder
-    }
-    
     // MARK: - Private Variables
     
     private var character: Character

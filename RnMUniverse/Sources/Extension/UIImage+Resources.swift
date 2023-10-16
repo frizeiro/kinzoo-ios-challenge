@@ -19,22 +19,10 @@ extension UIImage {
         
     }
     
-    struct custom {
-        
-        // MARK: - Public Variables
-        
-        static let placeholder = named("placeholder")
-        
-    }
-    
     // MARK: - Private Methods
     
     private static func systemName(_ systemName: String) -> UIImage {
         UIImage(systemName: systemName)!
     }
-    
-    private static func named(_ named: String) -> UIImage {
-        UIImage(named: named)!
-    }
-    
+        
 }

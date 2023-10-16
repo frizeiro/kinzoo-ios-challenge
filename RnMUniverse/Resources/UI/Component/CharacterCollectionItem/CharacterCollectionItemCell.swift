@@ -21,6 +21,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
         super.awakeFromNib()
         
         contentView.cornerRadius = .characterCollectionRadius
+        avatarImage?.image = .placeholder
     }
     
     // MARK: - Methods
@@ -29,7 +30,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
         guard let item = item as? CharacterCollectionItem else { return }
         
         nameLabel?.text = item.name
-        avatarImage?.load(from: item.avatar, placeholder: item.placeholder)
+        avatarImage?.load(from: item.avatar)
     }
     
 }

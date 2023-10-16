@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,25 +19,37 @@
                 <rect key="frame" x="0.0" y="0.0" width="192" height="192"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rE0-uW-adt">
-                        <rect key="frame" x="0.0" y="1.3333333333333286" width="192" height="190"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rE0-uW-adt">
+                        <rect key="frame" x="0.0" y="0.0" width="192" height="192"/>
                         <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Tessalonicenses" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-IO-OGk">
-                        <rect key="frame" x="37" y="161.66666666666666" width="145" height="20.333333333333343"/>
-                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b02-4f-Mnd">
+                        <rect key="frame" x="0.0" y="163.66666666666666" width="192" height="28.333333333333343"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rick and Morty" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-IO-OGk">
+                                <rect key="frame" x="4" y="4" width="184" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="boxName"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SdZ-IO-OGk" secondAttribute="trailing" constant="4" id="0n6-6r-wBu"/>
+                            <constraint firstItem="SdZ-IO-OGk" firstAttribute="top" secondItem="b02-4f-Mnd" secondAttribute="top" constant="4" id="YBh-ed-SgL"/>
+                            <constraint firstAttribute="bottom" secondItem="SdZ-IO-OGk" secondAttribute="bottom" constant="4" id="e9v-WJ-DTd"/>
+                            <constraint firstItem="SdZ-IO-OGk" firstAttribute="leading" secondItem="b02-4f-Mnd" secondAttribute="leading" constant="4" id="lsl-Sa-nev"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="SdZ-IO-OGk" secondAttribute="bottom" constant="10" id="16j-To-5kx"/>
                     <constraint firstItem="rE0-uW-adt" firstAttribute="top" secondItem="KYk-Xi-R9g" secondAttribute="top" id="6Fz-M5-Rcc"/>
-                    <constraint firstItem="SdZ-IO-OGk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KYk-Xi-R9g" secondAttribute="leading" constant="10" id="EXm-iy-lDc"/>
+                    <constraint firstItem="b02-4f-Mnd" firstAttribute="leading" secondItem="KYk-Xi-R9g" secondAttribute="leading" id="83c-4S-nRZ"/>
                     <constraint firstItem="rE0-uW-adt" firstAttribute="leading" secondItem="KYk-Xi-R9g" secondAttribute="leading" id="YYm-8c-HbR"/>
                     <constraint firstAttribute="trailing" secondItem="rE0-uW-adt" secondAttribute="trailing" id="dde-Lr-nfx"/>
-                    <constraint firstAttribute="trailing" secondItem="SdZ-IO-OGk" secondAttribute="trailing" constant="10" id="tsY-A7-kYE"/>
+                    <constraint firstAttribute="bottom" secondItem="b02-4f-Mnd" secondAttribute="bottom" id="emt-em-dT6"/>
+                    <constraint firstAttribute="trailing" secondItem="b02-4f-Mnd" secondAttribute="trailing" id="g7j-xs-nLr"/>
                     <constraint firstAttribute="bottom" secondItem="rE0-uW-adt" secondAttribute="bottom" id="v4U-Mx-WZ4"/>
                 </constraints>
             </collectionViewCellContentView>
@@ -45,11 +58,14 @@
                 <outlet property="avatarImage" destination="rE0-uW-adt" id="Kbc-Vz-wDB"/>
                 <outlet property="nameLabel" destination="SdZ-IO-OGk" id="mjM-pY-WRI"/>
             </connections>
-            <point key="canvasLocation" x="61" y="70"/>
+            <point key="canvasLocation" x="59.541984732824424" y="69.718309859154928"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="person.fill.viewfinder" catalog="system" width="128" height="115"/>
+        <image name="placeholder" width="300" height="300"/>
+        <namedColor name="boxName">
+            <color red="0.99607843137254903" green="1" blue="1" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
