@@ -1,21 +1,30 @@
 //
-//  CharactersViewController.swift
+//  CharacterViewController.swift
 //  RnMUniverse
 //
-//  Created by Felipe Frizeiro on 14/10/23.
+//  Created by Felipe Frizeiro on 16/10/23.
 //
 
 import Foundation
 import UIKit
 import NiceTable
 
-class CharactersViewController: NiceCollectionViewController {
-
+class CharacterViewController: NiceTableViewController {
+    
     // MARK: - Private Variables
     
-    private let viewModel = CharactersViewModel()
+    private let viewModel: CharacterViewModel
     
     // MARK: - Life Cycle
+    
+    init(viewModel: CharacterViewModel) {
+        self.viewModel = viewModel
+        super.init()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,10 +36,7 @@ class CharactersViewController: NiceCollectionViewController {
     // MARK: - Private Methods
     
     private func setupUI() {
-        // TODO: Add to localizeble
-        title = "RNM Universe"
-        
-        collectionView?.itemsSize = .estimatedProportional(width: 170, proportionalHeight: 1)
+        title = viewModel.character.name
     }
     
     private func setup() {
@@ -38,7 +44,7 @@ class CharactersViewController: NiceCollectionViewController {
         
         viewModel.bind { [weak self] sections in
             // TODO: empty state
-            self?.collectionView?.sections = sections
+            self?.tableView?.sections = sections
         }
         
         viewModel.pagination { [weak self] page, item in
@@ -51,10 +57,6 @@ class CharactersViewController: NiceCollectionViewController {
         
         viewModel.loader { [weak self] loading in
             // TODO: handle loading
-        }
-        
-        viewModel.tap { [weak self] character in
-            self?.navigationHelper.characters.detail(character)
         }
         
         viewModel.fetch()

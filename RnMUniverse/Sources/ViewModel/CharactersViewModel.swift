@@ -8,7 +8,7 @@
 import Foundation
 import NiceTable
 
-class CharactersViewModel: BaseViewModel<NiceCollectionSection, NiceCollectionItem> {
+class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection, NiceCollectionItem> {
         
     // MARK: - Private Variables
     
@@ -47,7 +47,7 @@ class CharactersViewModel: BaseViewModel<NiceCollectionSection, NiceCollectionIt
         let item = CharacterCollectionItem(character)
         
         item.tappedHandler = { [weak self] in
-            self?.tappedHandler?(character.id)
+            self?.tappedHandler?(character)
         }
         
         return item

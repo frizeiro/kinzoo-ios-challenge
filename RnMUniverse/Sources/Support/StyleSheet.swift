@@ -41,3 +41,13 @@ extension NiceSectionStyle {
     }
     
 }
+
+extension NiceContentStyle {
+    
+    static var inline: NiceContentStyle {
+        var style: NiceContentStyle = .shared
+        style.presentation = .inline
+        return style
+    }
+    
+}
