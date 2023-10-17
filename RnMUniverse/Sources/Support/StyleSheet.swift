@@ -42,6 +42,12 @@ extension NiceSectionStyle {
         return style
     }
     
+    static var withFooter: NiceSectionStyle {
+        var style: NiceSectionStyle = .shared
+        style.isFooterHidden = false
+        return style
+    }
+    
 }
 
 extension NiceContentStyle {

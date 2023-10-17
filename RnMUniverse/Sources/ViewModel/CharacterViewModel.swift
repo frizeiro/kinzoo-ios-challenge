@@ -50,7 +50,12 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
             episodesItem
         ].compactMap { $0 }
         
-        return NiceTableSection(items, title: "Episodes")
+        return NiceTableSection(
+            items,
+            title: "Episodes",
+            footer: "Number of each episode which the character appears.",
+            style: .withFooter
+        )
     }()
     
     // MARK: Items
