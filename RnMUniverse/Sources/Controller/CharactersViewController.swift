@@ -28,8 +28,7 @@ class CharactersViewController: NiceCollectionViewController {
     // MARK: - Private Methods
     
     private func setupUI() {
-        // TODO: Add to localizeble
-        title = "RNM Universe"
+        title = .R.title
         
         collectionView?.itemsSize = .estimatedProportional(width: 170, proportionalHeight: 1)
     }

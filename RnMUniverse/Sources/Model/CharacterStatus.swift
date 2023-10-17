@@ -12,3 +12,11 @@ enum CharacterStatus: String, Codable {
     case dead = "Dead"
     case unknown = "unknown"
 }
+
+extension CharacterStatus {
+    
+    var name: String {
+        return .localized(rawValue.lowercased())
+    }
+    
+}

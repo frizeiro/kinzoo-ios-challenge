@@ -13,3 +13,11 @@ enum CharacterGender: String, Codable {
     case genderless = "Genderless"
     case unknown = "unknown"
 }
+
+extension CharacterGender {
+    
+    var name: String {
+        return .localized(rawValue.lowercased())
+    }
+    
+}

@@ -34,6 +34,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     
     private lazy var detailsSection: NiceTableSection = {
         let items = [
+            nameItem,
             statusItem,
             speciesItem,
             typeItem,
@@ -52,8 +53,8 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         
         return NiceTableSection(
             items,
-            title: "Episodes",
-            footer: "Number of each episode which the character appears.",
+            title: .R.episodes,
+            footer: .R.episodes_message,
             style: .withFooter
         )
     }()
@@ -64,44 +65,51 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         return CharacterHeaderItem(character)
     }()
     
+    private lazy var nameItem: NiceTableItem? = {
+        return item(
+            label: .R.name,
+            text: character.name
+        )
+    }()
+    
     private lazy var statusItem: NiceTableItem? = {
         return item(
-            label: "Status",
-            text: character.status.rawValue
+            label: .R.status,
+            text: character.status.name
         )
     }()
     
     private lazy var speciesItem: NiceTableItem? = {
         return item(
-            label: "Species",
+            label: .R.species,
             text: character.species
         )
     }()
     
     private lazy var typeItem: NiceTableItem? = {
         return item(
-            label: "Type",
+            label: .R.type,
             text: character.type
         )
     }()
     
     private lazy var genderItem: NiceTableItem? = {
         return item(
-            label: "Gender",
-            text: character.gender.rawValue
+            label: .R.gender,
+            text: character.gender.name
         )
     }()
     
     private lazy var originItem: NiceTableItem? = {
         return item(
-            label: "Origin",
+            label: .R.origin,
             text: character.origin.name
         )
     }()
     
     private lazy var locationItem: NiceTableItem? = {
         return item(
-            label: "Location",
+            label: .R.location,
             text: character.location.name
         )
     }()
