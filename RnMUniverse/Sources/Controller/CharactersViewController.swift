@@ -21,7 +21,8 @@ class CharactersViewController: NiceCollectionViewController {
         super.viewDidLoad()
         
         setupUI()
-        setup()
+        setupLoadMore()
+        setupViewModel()
     }
     
     // MARK: - Private Methods
@@ -33,7 +34,15 @@ class CharactersViewController: NiceCollectionViewController {
         collectionView?.itemsSize = .estimatedProportional(width: 170, proportionalHeight: 1)
     }
     
-    private func setup() {
+    private func setupLoadMore() {
+        collectionView?.loadMoreEnabled = true
+        
+        collectionView?.loadMoreHandler = { [weak self] in
+            self?.viewModel.fetchNextPage()
+        }
+    }
+    
+    private func setupViewModel() {
         // TODO: network caching
         
         viewModel.bind { [weak self] sections in
@@ -41,8 +50,9 @@ class CharactersViewController: NiceCollectionViewController {
             self?.collectionView?.sections = sections
         }
         
-        viewModel.pagination { [weak self] page, item in
-            // TODO: pagination
+        viewModel.pagination { [weak self] sections, hasMore in
+            self?.collectionView?.sections = sections
+            self?.collectionView?.loadMoreEnabled = hasMore
         }
         
         viewModel.error { [weak self] page, error in

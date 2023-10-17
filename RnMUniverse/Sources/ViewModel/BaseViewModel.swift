@@ -7,13 +7,13 @@
 
 import Foundation
 
-open class BaseViewModel<T, B, P> {
+open class BaseViewModel<T, B> {
     
     // MARK: - Private Variables
     
     private(set) var tappedHandler: ((T) -> Void)? = nil
     private(set) var bindHandler: (([B]) -> Void)? = nil
-    private(set) var paginationHandler: ((Int, [P]) -> Void)? = nil
+    private(set) var paginationHandler: (([B], Bool) -> Void)? = nil
     private(set) var errorHandler: ((Int, Error) -> Void)? = nil
     private(set) var loaderHandler: ((Bool) -> Void)? = nil
     
@@ -27,7 +27,7 @@ open class BaseViewModel<T, B, P> {
         bindHandler = handler
     }
     
-    func pagination(_ handler: ((Int, [P]) -> Void)?) {
+    func pagination(_ handler: (([B], Bool) -> Void)?) {
         paginationHandler = handler
     }
     

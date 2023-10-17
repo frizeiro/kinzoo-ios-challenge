@@ -8,7 +8,7 @@
 import Foundation
 import NiceTable
 
-class CharacterViewModel: BaseViewModel<Void, NiceTableSection, NiceTableItem> {
+class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     
     // MARK: - Private Variables
     

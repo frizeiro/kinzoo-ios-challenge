@@ -1,6 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-RnMUniverse/Pods-RnMUniverse-resources.sh
 ${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceButtonCell.xib
 ${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionHeaderView.xib
+${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionLoadMoreItemCell.xib
 ${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionViewController.xib
 ${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceContentCell.xib
 ${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceTableViewController.xib

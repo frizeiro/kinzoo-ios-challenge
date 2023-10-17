@@ -8,21 +8,35 @@
 import Foundation
 import NiceTable
 
-class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection, NiceCollectionItem> {
+class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
         
     // MARK: - Private Variables
+    
+    private var currentPage: Int?
+    private var nextPage: Int? = 1
+    private var isLoadingMore = false
+    
+    private var hasMorePages: Bool {
+        return nextPage != nil
+    }
     
     private var characters = [Character]()
     private var items = [CharacterCollectionItem]()
     
+    private var sections: [NiceCollectionSection] {
+        return sections(items)
+    }
+    
     // MARK: - Public Methods
         
     func fetch() {
+        guard let nextPage else { return }
+        
         loaderHandler?(true)
         
-        DataSource.shared.character.fetch(page: 1, name: nil).done { response in
+        DataSource.shared.character.fetch(page: nextPage, name: nil).done { response in
             self.handle(response)
-            self.bindHandler?(self.sections(self.items))
+            self.bindHandler?(self.sections)
         }.catch { error in
             self.errorHandler?(1, error)
         }.finally {
@@ -30,9 +44,31 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection, NiceC
         }
     }
     
+    func fetchNextPage() {
+        guard !isLoadingMore, let nextPage else { return }
+        
+        isLoadingMore = true
+        
+        DataSource.shared.character.fetch(page: nextPage, name: nil).done { response in
+            self.handle(response)
+            self.paginationHandler?(self.sections, self.hasMorePages)
+        }.catch { error in
+            self.errorHandler?(nextPage, error)
+        }.finally {
+            self.isLoadingMore = false
+        }
+    }
+    
     // MARK: - Private Methods
     
     private func handle(_ response: CharactersResponse) {
+        currentPage = nextPage
+        nextPage = currentPage! + 1
+        
+        if let pages = response.info?.pages, let nextPage, pages < nextPage {
+            self.nextPage = nil
+        }
+        
         if let results = response.results {
             characters.append(contentsOf: results)
             

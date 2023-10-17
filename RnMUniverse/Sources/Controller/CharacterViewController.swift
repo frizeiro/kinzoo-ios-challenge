@@ -30,7 +30,7 @@ class CharacterViewController: NiceTableViewController {
         super.viewDidLoad()
         
         setupUI()
-        setup()
+        setupViewModel()
     }
     
     // MARK: - Private Methods
@@ -39,7 +39,7 @@ class CharacterViewController: NiceTableViewController {
         title = viewModel.character.name
     }
     
-    private func setup() {
+    private func setupViewModel() {
         // TODO: network caching
         
         viewModel.bind { [weak self] sections in

@@ -99,6 +99,7 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceButtonCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionHeaderView.xib"
+  install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionLoadMoreItemCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionViewController.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceContentCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceTableViewController.xib"
@@ -106,6 +107,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceButtonCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionHeaderView.xib"
+  install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionLoadMoreItemCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceCollectionViewController.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceContentCell.xib"
   install_resource "${PODS_ROOT}/NiceTable/NiceTable/Resources/NiceTableViewController.xib"
