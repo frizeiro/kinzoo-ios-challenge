@@ -19,7 +19,8 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     private var sections: [NiceTableSection] {
         return [
             headerSection,
-            detailsSection
+            detailsSection,
+            episodesSection
         ]
     }
     
@@ -42,6 +43,14 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         ].compactMap { $0 }
         
         return NiceTableSection(items)
+    }()
+    
+    private lazy var episodesSection: NiceTableSection = {
+        let items = [
+            episodesItem
+        ].compactMap { $0 }
+        
+        return NiceTableSection(items, title: "Episodes")
     }()
     
     // MARK: Items
@@ -89,6 +98,14 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         return item(
             label: "Location",
             text: character.location.name
+        )
+    }()
+    
+    private lazy var episodesItem: NiceTableItem? = {
+        return NiceContentItem(
+            .description(
+                text: character.episodeNumbers.map { $0.description }.joined(separator: ", ")
+            )
         )
     }()
     

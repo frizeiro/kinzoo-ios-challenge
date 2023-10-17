@@ -17,7 +17,20 @@ struct Character: Codable {
     var origin: Origin
     var location: Location
     var image: String
-    var episode: [String]
-    var url: String
+    var episode: [URL]
+    var url: URL
     var created: Date
+}
+
+extension Character {
+    
+    var episodeNumbers: [Int] {
+        return episode.compactMap {
+            if let number = $0.absoluteString.split(separator: "/").last {
+                return Int(number)
+            }
+            return nil
+        }
+    }
+    
 }
