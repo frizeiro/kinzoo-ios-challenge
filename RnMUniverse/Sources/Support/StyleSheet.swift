@@ -28,6 +28,8 @@ public class StyleSheet {
 extension CGFloat {
     
     static var characterCollectionRadius: CGFloat = 4
+    static var characterDetailRadius: CGFloat = 20
+    static var characterDetailBorder: CGFloat = 20
     static var episodeCollectionRadius: CGFloat = 4
     
 }

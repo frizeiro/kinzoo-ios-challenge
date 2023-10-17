@@ -13,7 +13,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
     // MARK: - Private Variables
     
     @IBOutlet private var nameLabel: UILabel?
-    @IBOutlet private var avatarImage: UIImageView?
+    @IBOutlet private var avatarImageView: UIImageView?
     
     // MARK: - Life Cycle
     
@@ -21,7 +21,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
         super.awakeFromNib()
         
         contentView.cornerRadius = .characterCollectionRadius
-        avatarImage?.image = .placeholder
+        avatarImageView?.image = .placeholder
     }
     
     // MARK: - Public Methods
@@ -30,7 +30,7 @@ class CharacterCollectionItemCell: NiceCollectionCell {
         guard let item = item as? CharacterCollectionItem else { return }
         
         nameLabel?.text = item.name
-        avatarImage?.load(from: item.avatar)
+        avatarImageView?.load(from: item.avatar)
     }
     
 }
