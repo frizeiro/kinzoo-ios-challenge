@@ -9,7 +9,7 @@ import Foundation
 
 extension Data {
     
-    // MARK: - Piblic Variables
+    // MARK: - Public Variables
     
     var prettyPrintedJSONString: NSString? {
         guard let object = try? JSONSerialization.jsonObject(with: self, options: []),

@@ -22,6 +22,8 @@
 		55B770DA2ADB3912008907B9 /* CharacterCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B770D92ADB3912008907B9 /* CharacterCollectionItem.swift */; };
 		55B770DC2ADB391D008907B9 /* CharacterCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B770DB2ADB391D008907B9 /* CharacterCollectionItemCell.swift */; };
 		55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B770DD2ADB396C008907B9 /* CharacterCollectionItemCell.xib */; };
+		55BDEDA02ADE07FF00705EEE /* UIView+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDED9F2ADE07FF00705EEE /* UIView+Loader.swift */; };
+		55BDEDA42ADE154A00705EEE /* UIViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEDA32ADE154A00705EEE /* UIViewController+Loader.swift */; };
 		55DCF80F2ADC37C200A3251D /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCF80E2ADC37C200A3251D /* CharactersViewModel.swift */; };
 		55DCF8112ADC497C00A3251D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCF8102ADC497C00A3251D /* BaseViewModel.swift */; };
 		55DCF8132ADC99B100A3251D /* UIImageView+LoadUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */; };
@@ -92,6 +94,8 @@
 		55B770D92ADB3912008907B9 /* CharacterCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionItem.swift; sourceTree = "<group>"; };
 		55B770DB2ADB391D008907B9 /* CharacterCollectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionItemCell.swift; sourceTree = "<group>"; };
 		55B770DD2ADB396C008907B9 /* CharacterCollectionItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionItemCell.xib; sourceTree = "<group>"; };
+		55BDED9F2ADE07FF00705EEE /* UIView+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Loader.swift"; sourceTree = "<group>"; };
+		55BDEDA32ADE154A00705EEE /* UIViewController+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Loader.swift"; sourceTree = "<group>"; };
 		55DCF80E2ADC37C200A3251D /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
 		55DCF8102ADC497C00A3251D /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadUrl.swift"; sourceTree = "<group>"; };
@@ -361,7 +365,9 @@
 				55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */,
 				55DCF8142ADC99E300A3251D /* UIImage+Resources.swift */,
 				55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */,
+				55BDED9F2ADE07FF00705EEE /* UIView+Loader.swift */,
 				5539D15F2ADB40A600339C72 /* UIView+Support.swift */,
+				55BDEDA32ADE154A00705EEE /* UIViewController+Loader.swift */,
 				556EDDA12ADD4D1B0005DC16 /* UIViewController+NavigationHelper.swift */,
 			);
 			path = Extension;
@@ -634,6 +640,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				556EDDA42ADD4E9C0005DC16 /* CharacterViewController.swift in Sources */,
+				55BDEDA02ADE07FF00705EEE /* UIView+Loader.swift in Sources */,
 				556EDD9C2ADD4B130005DC16 /* BaseNavigationHelper.swift in Sources */,
 				55DCF8152ADC99E300A3251D /* UIImage+Resources.swift in Sources */,
 				55F105622ADAED7C00979F90 /* Character.swift in Sources */,
@@ -670,6 +677,7 @@
 				556EDDA92ADD8DDA0005DC16 /* CharacterHeaderItem.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
 				55F105602ADAED6E00979F90 /* Origin.swift in Sources */,
+				55BDEDA42ADE154A00705EEE /* UIViewController+Loader.swift in Sources */,
 				55F105642ADAED8F00979F90 /* Info.swift in Sources */,
 				55B770DA2ADB3912008907B9 /* CharacterCollectionItem.swift in Sources */,
 			);

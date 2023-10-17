@@ -26,6 +26,7 @@ extension UIView {
     
     func applyBlur(
         _ style: UIBlurEffect.Style = .light,
+        alpha: CGFloat = 1,
         reducedTransparencyColor: UIColor = .white
     ) {
         if !UIAccessibility.isReduceTransparencyEnabled {
@@ -35,7 +36,13 @@ extension UIView {
             let blurEffectView = UIVisualEffectView(effect: blurEffect)
             
             blurEffectView.frame = bounds
+            blurEffectView.alpha = alpha
             blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            
+            if layer.cornerRadius > 0 {
+                blurEffectView.layer.cornerRadius = layer.cornerRadius
+                blurEffectView.layer.masksToBounds = true
+            }
             
             insertSubview(blurEffectView, at: 0)
         } else {

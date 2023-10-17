@@ -9,7 +9,7 @@ import Foundation
 
 extension DateFormatter {
     
-    // MARK: - Piblic Variables
+    // MARK: - Public Variables
     
     static let standardT: DateFormatter = {
         var dateFormatter = DateFormatter()

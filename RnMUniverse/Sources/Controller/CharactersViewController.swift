@@ -50,7 +50,11 @@ class CharactersViewController: NiceCollectionViewController {
         }
         
         viewModel.loader { [weak self] loading in
-            // TODO: handle loading
+            if loading {
+                self?.showLoader()
+            } else {
+                self?.hideLoader()
+            }
         }
         
         viewModel.tap { [weak self] character in
