@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4848762CDB3E4920D25DAEF6 /* libPods-RnMUniverseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAFBD1E925575276661D40D /* libPods-RnMUniverseTests.a */; };
+		553661802ADEE7E2004912D8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5536617F2ADEE7E2004912D8 /* Localizable.xcstrings */; };
 		5539D15E2ADB3F4B00339C72 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D15D2ADB3F4B00339C72 /* StyleSheet.swift */; };
 		5539D1602ADB40A600339C72 /* UIView+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D15F2ADB40A600339C72 /* UIView+Support.swift */; };
 		556EDD9C2ADD4B130005DC16 /* BaseNavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556EDD9B2ADD4B130005DC16 /* BaseNavigationHelper.swift */; };
@@ -79,6 +80,7 @@
 /* Begin PBXFileReference section */
 		05171453F1D0C4D5A92B362B /* libPods-RnMUniverse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnMUniverse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107E53013870D15C81E764C0 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverseTests.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverseTests/Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5536617F2ADEE7E2004912D8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		5539D15D2ADB3F4B00339C72 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		5539D15F2ADB40A600339C72 /* UIView+Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Support.swift"; sourceTree = "<group>"; };
 		556EDD9B2ADD4B130005DC16 /* BaseNavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationHelper.swift; sourceTree = "<group>"; };
@@ -228,9 +230,9 @@
 				55F105112ADADA9000979F90 /* RnMUniverse */,
 				55F105282ADADA9100979F90 /* RnMUniverseTests */,
 				55F105322ADADA9100979F90 /* RnMUniverseUITests */,
-				55F105102ADADA9000979F90 /* Products */,
-				004C0D58DD9E691C704A0030 /* Pods */,
 				F9A001B80B7F7468AFF2F422 /* Frameworks */,
+				004C0D58DD9E691C704A0030 /* Pods */,
+				55F105102ADADA9000979F90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,6 +292,7 @@
 			children = (
 				55F105452ADAE04D00979F90 /* Media */,
 				55F105462ADAE05300979F90 /* UI */,
+				5536617F2ADEE7E2004912D8 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -454,6 +457,8 @@
 			dependencies = (
 			);
 			name = RnMUniverse;
+			packageProductDependencies = (
+			);
 			productName = RnMUniverse;
 			productReference = 55F1050F2ADADA9000979F90 /* RnMUniverse.app */;
 			productType = "com.apple.product-type.application";
@@ -527,6 +532,8 @@
 				Base,
 			);
 			mainGroup = 55F105062ADADA9000979F90;
+			packageReferences = (
+			);
 			productRefGroup = 55F105102ADADA9000979F90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -544,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */,
+				553661802ADEE7E2004912D8 /* Localizable.xcstrings in Resources */,
 				556EDDAD2ADD8DEB0005DC16 /* CharacterHeaderItemCell.xib in Resources */,
 				55DCF8172ADD440300A3251D /* Colors.xcassets in Resources */,
 				55F1051C2ADADA9100979F90 /* Assets.xcassets in Resources */,
