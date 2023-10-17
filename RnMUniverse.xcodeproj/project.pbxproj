@@ -33,7 +33,6 @@
 		55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105142ADADA9000979F90 /* SceneDelegate.swift */; };
 		55F105172ADADA9000979F90 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105162ADADA9000979F90 /* CharactersViewController.swift */; };
 		55F1051C2ADADA9100979F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F1051B2ADADA9100979F90 /* Assets.xcassets */; };
-		55F1051F2ADADA9100979F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1051D2ADADA9100979F90 /* LaunchScreen.storyboard */; };
 		55F1052A2ADADA9100979F90 /* RnMUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105292ADADA9100979F90 /* RnMUniverseTests.swift */; };
 		55F105342ADADA9100979F90 /* RnMUniverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105332ADADA9100979F90 /* RnMUniverseUITests.swift */; };
 		55F105362ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F105352ADADA9100979F90 /* RnMUniverseUITestsLaunchTests.swift */; };
@@ -106,7 +105,6 @@
 		55F105142ADADA9000979F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55F105162ADADA9000979F90 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		55F1051B2ADADA9100979F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55F1051E2ADADA9100979F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F105202ADADA9100979F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F105252ADADA9100979F90 /* RnMUniverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RnMUniverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F105292ADADA9100979F90 /* RnMUniverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnMUniverseTests.swift; sourceTree = "<group>"; };
@@ -319,7 +317,6 @@
 			isa = PBXGroup;
 			children = (
 				55B770D72ADB38D7008907B9 /* Component */,
-				55F1051D2ADADA9100979F90 /* LaunchScreen.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -549,7 +546,6 @@
 				55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */,
 				556EDDAD2ADD8DEB0005DC16 /* CharacterHeaderItemCell.xib in Resources */,
 				55DCF8172ADD440300A3251D /* Colors.xcassets in Resources */,
-				55F1051F2ADADA9100979F90 /* LaunchScreen.storyboard in Resources */,
 				55F1051C2ADADA9100979F90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,17 +711,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		55F1051D2ADADA9100979F90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55F1051E2ADADA9100979F90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		55F105372ADADA9200979F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -857,8 +842,9 @@
 				DEVELOPMENT_TEAM = SWAKFB6A2G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RnMUniverse/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RNM Universe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -886,8 +872,9 @@
 				DEVELOPMENT_TEAM = SWAKFB6A2G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RnMUniverse/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RNM Universe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
