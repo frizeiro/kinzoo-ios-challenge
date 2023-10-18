@@ -13,11 +13,13 @@ final class ServerClient: Client {
     // MARK: - Public Variables
     
     private(set) var baseUrl: String
+    private(set) var serializer: DataSourceSerializer
     
     // MARK: - Life Cycle
     
-    init(baseUrl: String) {
+    init(baseUrl: String, serializer: DataSourceSerializer = DataSourceCoder.shared) {
         self.baseUrl = baseUrl
+        self.serializer = serializer
     }
     
     // MARK: - Public Methods
@@ -48,9 +50,7 @@ final class ServerClient: Client {
                 
                 self?.log(request, urlRequest, data)
                 
-                let decoder = DataDecoder.shared
-                
-                let errorObject = try? decoder.decode(ErrorResponse.self, from: data)
+                let errorObject = try? self?.serializer.decode(ErrorResponse.self, from: data)
                 
                 if let errorObject {
                     resolver.reject(NetworkError.requestError(errorObject))
@@ -58,7 +58,7 @@ final class ServerClient: Client {
                 }
                 
                 do {
-                    let responseObject = try decoder.decode(T.self, from: data)
+                    let responseObject = try self!.serializer.decode(T.self, from: data)
                     resolver.fulfill(responseObject)
                 } catch {
                     resolver.reject(NetworkError.encodingFailed(error))

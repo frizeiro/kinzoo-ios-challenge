@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Character: Codable {
+struct Character: Codable, Equatable {
     var id: Int
     var name: String
     var status: CharacterStatus

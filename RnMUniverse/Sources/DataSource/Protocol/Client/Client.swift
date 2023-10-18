@@ -11,6 +11,7 @@ import PromiseKit
 protocol Client: AnyObject {
     
     var baseUrl: String { get }
+    var serializer: DataSourceSerializer { get }
     
     func execute<T: Decodable>(_ request: Request) -> Promise<T>
     

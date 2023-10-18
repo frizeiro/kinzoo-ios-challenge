@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Origin: Codable {
+struct Origin: Codable, Equatable {
     var name: String
     var url: String
 }

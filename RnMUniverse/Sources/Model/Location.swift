@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Location: Codable {
+struct Location: Codable, Equatable {
     var name: String
     var url: String
 }
