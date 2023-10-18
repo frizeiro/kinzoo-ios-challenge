@@ -15,16 +15,21 @@ final class DataSource {
     
     // MARK: - Private Variables
     
-    private var serverClient = ServerClient(baseUrl: "https://rickandmortyapi.com/api")
+    private var serverClient = ServerClient(
+        baseUrl: "https://rickandmortyapi.com/api",
+        serializer: DataSourceCoder.shared
+    )
     
     // MARK: DataSources
     
     public let character: CharacterDataSource
+    public let episode: EpisodeDataSource
     
     // MARK: - Life Cycle
     
     init() {
         character = CharacterServerDataSource(serverClient)
+        episode = EpisodeServerDataSource(serverClient)
     }
     
 }

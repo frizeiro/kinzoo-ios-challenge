@@ -117,7 +117,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     private lazy var episodesItem: NiceTableItem? = {
         return NiceContentItem(
             .description(
-                text: character.episodeNumbers.map { $0.description }.joined(separator: ", ")
+                text: character.episodeNumbers.joined(", ")
             )
         )
     }()

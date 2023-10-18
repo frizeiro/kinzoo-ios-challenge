@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552FDDB82ADFF11C002EC555 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB72ADFF11C002EC555 /* Episode.swift */; };
+		552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */; };
+		552FDDBE2ADFF1FC002EC555 /* EpisodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */; };
+		552FDDC02ADFF215002EC555 /* EpisodeServerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBF2ADFF215002EC555 /* EpisodeServerDataSource.swift */; };
+		552FDDC22ADFF387002EC555 /* Array+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDC12ADFF387002EC555 /* Array+Int.swift */; };
 		553661802ADEE7E2004912D8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5536617F2ADEE7E2004912D8 /* Localizable.xcstrings */; };
 		5539D15E2ADB3F4B00339C72 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D15D2ADB3F4B00339C72 /* StyleSheet.swift */; };
 		5539D1602ADB40A600339C72 /* UIView+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D15F2ADB40A600339C72 /* UIView+Support.swift */; };
@@ -88,6 +93,11 @@
 		0D374FFBD0815BEB8E549699 /* Pods-RnMUniverse-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse-RnMUniverseTests.release.xcconfig"; path = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
 		107E53013870D15C81E764C0 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverseTests.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverseTests/Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		109559E6CFC91CCD77D9002F /* Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		552FDDB72ADFF11C002EC555 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDataSource.swift; sourceTree = "<group>"; };
+		552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRequest.swift; sourceTree = "<group>"; };
+		552FDDBF2ADFF215002EC555 /* EpisodeServerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeServerDataSource.swift; sourceTree = "<group>"; };
+		552FDDC12ADFF387002EC555 /* Array+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Int.swift"; sourceTree = "<group>"; };
 		5536617F2ADEE7E2004912D8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		5539D15D2ADB3F4B00339C72 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		5539D15F2ADB40A600339C72 /* UIView+Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Support.swift"; sourceTree = "<group>"; };
@@ -426,6 +436,7 @@
 				55F105612ADAED7C00979F90 /* Character.swift */,
 				55F105592ADAED3100979F90 /* CharacterGender.swift */,
 				55F1055B2ADAED4900979F90 /* CharacterStatus.swift */,
+				552FDDB72ADFF11C002EC555 /* Episode.swift */,
 				55F105632ADAED8F00979F90 /* Info.swift */,
 				55F1055D2ADAED5900979F90 /* Location.swift */,
 				55F105752ADB1A7800979F90 /* NetworkError.swift */,
@@ -446,6 +457,8 @@
 		55F1054A2ADAE09600979F90 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				552FDDC12ADFF387002EC555 /* Array+Int.swift */,
+				5595CB1A2ADF625500FD337B /* Codable+Support.swift */,
 				55F105712ADB19F800979F90 /* Data+Support.swift */,
 				55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */,
 				55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */,
@@ -453,7 +466,6 @@
 				5539D15F2ADB40A600339C72 /* UIView+Support.swift */,
 				55BDEDA32ADE154A00705EEE /* UIViewController+Loader.swift */,
 				556EDDA12ADD4D1B0005DC16 /* UIViewController+NavigationHelper.swift */,
-				5595CB1A2ADF625500FD337B /* Codable+Support.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -473,6 +485,7 @@
 			children = (
 				55F1054D2ADAE45E00979F90 /* Client */,
 				55F105542ADAE82800979F90 /* CharacterDataSource.swift */,
+				552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -503,6 +516,8 @@
 				5595CB192ADF5FEA00FD337B /* Client */,
 				55F105682ADAF44300979F90 /* CharacterRequest.swift */,
 				55F1056F2ADB05B800979F90 /* CharacterServerDataSource.swift */,
+				552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */,
+				552FDDBF2ADFF215002EC555 /* EpisodeServerDataSource.swift */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -750,6 +765,7 @@
 				556EDD9C2ADD4B130005DC16 /* BaseNavigationHelper.swift in Sources */,
 				5595CB0D2ADF543C00FD337B /* DataSourceCoder.swift in Sources */,
 				55F105622ADAED7C00979F90 /* Character.swift in Sources */,
+				552FDDB82ADFF11C002EC555 /* Episode.swift in Sources */,
 				55F105172ADADA9000979F90 /* CharactersViewController.swift in Sources */,
 				55DCF8132ADC99B100A3251D /* UIImageView+LoadUrl.swift in Sources */,
 				55F1055E2ADAED5900979F90 /* Location.swift in Sources */,
@@ -775,8 +791,10 @@
 				55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */,
 				556EDDA02ADD4B730005DC16 /* CharactersNavigationHelper.swift in Sources */,
 				55F1056C2ADB012700979F90 /* NetworkManager.swift in Sources */,
+				552FDDC22ADFF387002EC555 /* Array+Int.swift in Sources */,
 				55F1055C2ADAED4900979F90 /* CharacterStatus.swift in Sources */,
 				55F1056E2ADB058F00979F90 /* DataSource.swift in Sources */,
+				552FDDBE2ADFF1FC002EC555 /* EpisodeRequest.swift in Sources */,
 				55F105782ADB25E500979F90 /* ErrorResponse.swift in Sources */,
 				55B770DC2ADB391D008907B9 /* CharacterCollectionItemCell.swift in Sources */,
 				55F105672ADAF08600979F90 /* ServerClient.swift in Sources */,
@@ -785,8 +803,10 @@
 				556EDDA92ADD8DDA0005DC16 /* CharacterHeaderItem.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
 				55BDEDA42ADE154A00705EEE /* UIViewController+Loader.swift in Sources */,
+				552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */,
 				55F105642ADAED8F00979F90 /* Info.swift in Sources */,
 				55B770DA2ADB3912008907B9 /* CharacterCollectionItem.swift in Sources */,
+				552FDDC02ADFF215002EC555 /* EpisodeServerDataSource.swift in Sources */,
 				5595CAF82ADF3EC700FD337B /* String+Localizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

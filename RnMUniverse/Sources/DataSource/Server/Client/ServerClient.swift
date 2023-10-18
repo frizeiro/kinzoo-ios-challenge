@@ -19,7 +19,7 @@ final class ServerClient: Client {
     
     init(
         baseUrl: String,
-        serializer: DataSourceSerializer = DataSourceCoder.shared
+        serializer: DataSourceSerializer
     ) {
         self.baseUrl = baseUrl
         self.serializer = serializer
