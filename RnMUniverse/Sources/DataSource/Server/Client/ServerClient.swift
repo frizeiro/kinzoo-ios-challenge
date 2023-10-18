@@ -17,7 +17,10 @@ final class ServerClient: Client {
     
     // MARK: - Life Cycle
     
-    init(baseUrl: String, serializer: DataSourceSerializer = DataSourceCoder.shared) {
+    init(
+        baseUrl: String,
+        serializer: DataSourceSerializer = DataSourceCoder.shared
+    ) {
         self.baseUrl = baseUrl
         self.serializer = serializer
     }

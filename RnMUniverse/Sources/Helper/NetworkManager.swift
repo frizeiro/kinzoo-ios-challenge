@@ -28,6 +28,8 @@ class NetworkManager {
         monitor.pathUpdateHandler = { [weak self] in
             self?.isConnected = $0.status == .satisfied
         }
+        let queue = DispatchQueue(label: "NetworkMonitor")
+        monitor.start(queue: queue)
     }
     
 }
