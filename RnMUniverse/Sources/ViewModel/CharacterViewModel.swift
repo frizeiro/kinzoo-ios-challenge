@@ -75,7 +75,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     private lazy var statusItem: NiceTableItem? = {
         return item(
             label: .R.status,
-            text: character.status.name
+            text: character.status?.name
         )
     }()
     
@@ -96,21 +96,21 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     private lazy var genderItem: NiceTableItem? = {
         return item(
             label: .R.gender,
-            text: character.gender.name
+            text: character.gender?.name
         )
     }()
     
     private lazy var originItem: NiceTableItem? = {
         return item(
             label: .R.origin,
-            text: character.origin.name
+            text: character.origin?.name
         )
     }()
     
     private lazy var locationItem: NiceTableItem? = {
         return item(
             label: .R.location,
-            text: character.location.name
+            text: character.location?.name
         )
     }()
     
@@ -131,9 +131,11 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     // MARK: - Public Methods
     
     func fetch() {
+        guard let id = character.id else { return }
+        
         loaderHandler?(true)
         
-        DataSource.shared.character.detail(id: character.id).done { response in
+        DataSource.shared.character.detail(id: id).done { response in
             self.character = response
             self.bindHandler?(self.sections)
         }.catch { error in
@@ -147,9 +149,9 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     
     private func item(
         label: String,
-        text: String
+        text: String?
     ) -> NiceTableItem? {
-        guard !text.isEmpty else { return nil }
+        guard text?.isEmpty == false else { return nil }
         
         return NiceContentItem(
             .description(

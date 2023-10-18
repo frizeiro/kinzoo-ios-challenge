@@ -25,10 +25,10 @@ class CharacterTest: XCTestCase {
         expect(model.gender) == .female
         
         expect(model.origin).toNot(beNil())
-        expect(model.origin.name) == "Earth (C-137)"
+        expect(model.origin?.name) == "Earth (C-137)"
         
         expect(model.location).toNot(beNil())
-        expect(model.location.name) == "Citadel of Ricks"
+        expect(model.location?.name) == "Citadel of Ricks"
         
         expect(model.image) == "https://rickandmortyapi.com/api/character/avatar/38.jpeg"
         
@@ -52,11 +52,21 @@ class CharacterTest: XCTestCase {
         expectCodable(Character.self)
     }
     
+    func testEnsureDecodeFromInvalidJson() {
+        let model: Character = .fromEmptyMock()
+        
+        expect(model).toNot(beNil())
+        expect(model) == Character()
+    }
+    
     func testEnsureCorrectEpisodeNumbers() {
-        let model: Character = .fromMock()
+        var model: Character = .fromMock()
         
         let expected = [1, 2, 3, 4, 5, 6, 22, 51]
         expect(model.episodeNumbers) == expected
+        
+        model = Character()
+        expect(model.episodeNumbers) == []
     }
     
 }

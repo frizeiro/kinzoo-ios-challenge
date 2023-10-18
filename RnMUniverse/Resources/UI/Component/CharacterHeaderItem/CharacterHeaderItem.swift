@@ -16,7 +16,7 @@ class CharacterHeaderItem: NiceTableItem {
         return CharacterHeaderItemCell.self
     }
     
-    var avatar: String {
+    var avatar: String? {
         return character.image
     }
     

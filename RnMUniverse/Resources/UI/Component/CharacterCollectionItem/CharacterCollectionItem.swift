@@ -16,11 +16,11 @@ class CharacterCollectionItem: NiceCollectionItem {
         return CharacterCollectionItemCell.self
     }
     
-    var name: String {
+    var name: String? {
         return character.name
     }
     
-    var avatar: String {
+    var avatar: String? {
         return character.image
     }
     

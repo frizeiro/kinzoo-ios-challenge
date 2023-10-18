@@ -13,7 +13,12 @@ extension UIImageView {
     
     // MARK: - Public Methods
     
-    func load(from urlSting: String, placeholder: UIImage = .placeholder) {
+    func load(from urlSting: String?, placeholder: UIImage = .placeholder) {
+        guard let urlSting else {
+            image = placeholder
+            return
+        }
+        
         sd_setImage(with: URL(string: urlSting), placeholderImage: placeholder)
     }
     
