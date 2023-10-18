@@ -58,13 +58,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of each episode which the character appears."
+            "value" : "List of each episode which the character appears."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Número de cada episódio em que o personagem aparece."
+            "value" : "Lista de cada episódio em que o personagem aparece."
           }
         }
       }

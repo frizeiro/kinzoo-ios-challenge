@@ -9,14 +9,17 @@ import Foundation
 
 enum EpisodeRequest: Request {
     
-    case detail(ids: [Int])
+    case detail(id: Int)
+    case detailMany(ids: [Int])
     
     // MARK: - Public Variables
     
     var path: String {
         switch self {
             case .detail(let id):
-                return "character/\(id.joined(","))"
+                return "episode/\(id)"
+            case .detailMany(ids: let ids):
+                return "episode/[\(ids.joined(","))]"
         }
     }
     

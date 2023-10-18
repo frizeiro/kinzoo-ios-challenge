@@ -23,11 +23,11 @@ final class EpisodeServerDataSource: EpisodeDataSource {
     // MARK: - Public Methods
     
     func detail(id: Int) -> Promise<Episode> {
-        return execute(.detail(ids: [id]))
+        return execute(.detail(id: id))
     }
     
     func detail(ids: [Int]) -> Promise<[Episode]> {
-        return execute(.detail(ids: ids))
+        return execute(.detailMany(ids: ids))
     }
     
     // MARK: - Private Methods

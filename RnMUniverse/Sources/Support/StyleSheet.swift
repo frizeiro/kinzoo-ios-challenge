@@ -58,4 +58,11 @@ extension NiceContentStyle {
         return style
     }
     
+    static var episodes: NiceContentStyle {
+        var style: NiceContentStyle = .shared
+        style.presentation = .inline
+        style.subtitleFont = .preferredFont(forTextStyle: .footnote)
+        return style
+    }
+    
 }

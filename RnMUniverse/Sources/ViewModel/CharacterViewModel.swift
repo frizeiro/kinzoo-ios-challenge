@@ -13,6 +13,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     // MARK: - Private Variables
     
     private(set) var character: Character
+    private(set) var episodes = [Episode]()
     
     // MARK: Sections
     
@@ -21,7 +22,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
             headerSection,
             detailsSection,
             episodesSection
-        ]
+        ].compactMap { $0 }
     }
     
     private lazy var headerSection: NiceTableSection = {
@@ -46,13 +47,11 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         return NiceTableSection(items)
     }()
     
-    private lazy var episodesSection: NiceTableSection = {
-        let items = [
-            episodesItem
-        ].compactMap { $0 }
+    private lazy var episodesSection: NiceTableSection? = {
+        guard let episodesItems else { return nil }
         
         return NiceTableSection(
-            items,
+            episodesItems,
             title: .R.episodes,
             footer: .R.episodes_message,
             style: .withFooter
@@ -114,12 +113,19 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         )
     }()
     
-    private lazy var episodesItem: NiceTableItem? = {
-        return NiceContentItem(
-            .description(
-                text: character.episodeNumbers.joined(", ")
+    private lazy var episodesItems: [NiceTableItem]? = {
+        guard !episodes.isEmpty else { return nil }
+        
+        return episodes.map {
+            return NiceContentItem(
+                .description(
+                    label: $0.episode?.description,
+                    subtitle: $0.air_date,
+                    text: $0.name,
+                    style: .episodes
+                )
             )
-        )
+        }
     }()
     
     // MARK: - Life Cycle
@@ -135,8 +141,11 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
         
         loaderHandler?(true)
         
-        DataSource.shared.character.detail(id: id).done { response in
+        DataSource.shared.character.detail(id: id).then { response in
             self.character = response
+            return DataSource.shared.episode.detail(ids: response.episodeNumbers)
+        }.done { response in
+            self.episodes = response
             self.bindHandler?(self.sections)
         }.catch { error in
             self.errorHandler?(0, error)
