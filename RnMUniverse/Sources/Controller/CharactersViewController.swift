@@ -30,7 +30,12 @@ class CharactersViewController: NiceCollectionViewController {
     private func setupUI() {
         title = .R.title
         
-        collectionView?.itemsSize = .estimatedProportional(width: 170, proportionalHeight: 1)
+        var width: CGFloat = 170
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            width = 300
+        }
+        collectionView?.itemsSize = .estimatedProportional(width: width, proportionalHeight: 1)
     }
     
     private func setupLoadMore() {
