@@ -136,9 +136,10 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
     
     // MARK: - Public Methods
     
-    func fetch() {
+    override func fetch() {
         guard let id = character.id else { return }
         
+        errorHandler?(nil)
         loaderHandler?(true)
         
         DataSource.shared.character.detail(id: id).then { response in
@@ -148,7 +149,7 @@ class CharacterViewModel: BaseViewModel<Void, NiceTableSection> {
             self.episodes = response
             self.bindHandler?(self.sections)
         }.catch { error in
-            self.errorHandler?(0, error)
+            self.handle(error)
         }.finally {
             self.loaderHandler?(false)
         }

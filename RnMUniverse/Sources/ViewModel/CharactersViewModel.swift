@@ -29,16 +29,17 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
     
     // MARK: - Public Methods
         
-    func fetch() {
+    override func fetch() {
         guard let nextPage else { return }
         
+        errorHandler?(nil)
         loaderHandler?(true)
         
         DataSource.shared.character.fetch(page: nextPage, name: nil).done { response in
             self.handle(response)
             self.bindHandler?(self.sections)
         }.catch { error in
-            self.errorHandler?(1, error)
+            self.handle(error)
         }.finally {
             self.loaderHandler?(false)
         }
@@ -48,12 +49,13 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
         guard !isLoadingMore, let nextPage else { return }
         
         isLoadingMore = true
+        errorHandler?(nil)
         
         DataSource.shared.character.fetch(page: nextPage, name: nil).done { response in
             self.handle(response)
             self.paginationHandler?(self.sections, self.hasMorePages)
         }.catch { error in
-            self.errorHandler?(nextPage, error)
+            // TODO: Handle error on load more
         }.finally {
             self.isLoadingMore = false
         }

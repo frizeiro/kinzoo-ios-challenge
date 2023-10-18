@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NiceTable:
-    :commit: e9f1fb7ceca9b1540386248b2f518e2e318960c1
+    :commit: 13e2ca484de5b229cf91ffe216319b6602044658
     :git: "git@github.com:frizeiro/nice-table.git"
 
 SPEC CHECKSUMS:

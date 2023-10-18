@@ -15,6 +15,10 @@ class CharactersViewController: NiceCollectionViewController {
     
     private let viewModel = CharactersViewModel()
     
+    private lazy var emptyStateHelper: EmptyStateHelper = {
+        EmptyStateHelper(in: view)
+    }()
+    
     // MARK: - Life Cycle
     
     override func viewDidLoad() {
@@ -47,23 +51,24 @@ class CharactersViewController: NiceCollectionViewController {
     }
     
     private func setupViewModel() {
-        // TODO: network caching
-        
-        viewModel.bind { [weak self] sections in
-            // TODO: empty state
+        viewModel.bindHandler = { [weak self] sections in
             self?.collectionView?.sections = sections
         }
         
-        viewModel.pagination { [weak self] sections, hasMore in
+        viewModel.paginationHandler = { [weak self] sections, hasMore in
             self?.collectionView?.sections = sections
             self?.collectionView?.loadMoreEnabled = hasMore
         }
         
-        viewModel.error { [weak self] page, error in
-            // TODO: handle errors
+        viewModel.errorHandler = { [weak self] error in
+            if let error {
+                self?.emptyStateHelper.states = [error]
+            } else {
+                self?.emptyStateHelper.states = []
+            }
         }
         
-        viewModel.loader { [weak self] loading in
+        viewModel.loaderHandler = { [weak self] loading in
             if loading {
                 self?.showLoader()
             } else {
@@ -71,7 +76,7 @@ class CharactersViewController: NiceCollectionViewController {
             }
         }
         
-        viewModel.tap { [weak self] character in
+        viewModel.tappedHandler = { [weak self] character in
             self?.navigationHelper.characters.detail(character)
         }
         

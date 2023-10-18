@@ -35,6 +35,40 @@
         }
       }
     },
+    "empty_state_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you're connected to the internet, we may had a data issue. We are very sorry. :(\n\nIf you aren't connected, this information may haven't been accessed before, so it isn't available offline yet."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se você está conectado à internet, podemos estar com algum problema nos dados. Sentimos muito. :(\n\nSe você não está desconectado, esta informação pode não ter sido acessada anteriormente, por isso ainda não está disponível offline."
+          }
+        }
+      }
+    },
+    "empty_state_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uh oh. Something went wrong"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oh não. Algo saiu errado"
+          }
+        }
+      }
+    },
     "episodes" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -235,6 +269,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Universo RNM"
+          }
+        }
+      }
+    },
+    "try_again" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentar novamente"
           }
         }
       }

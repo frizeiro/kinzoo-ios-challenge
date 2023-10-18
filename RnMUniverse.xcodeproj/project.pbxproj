@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552BB9B62AE023E50034BC3B /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552BB9AC2AE023E50034BC3B /* EmptyStateView.xib */; };
+		552BB9B72AE023E50034BC3B /* EmptyStateActionRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9AE2AE023E50034BC3B /* EmptyStateActionRepresentable.swift */; };
+		552BB9B92AE023E50034BC3B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B02AE023E50034BC3B /* EmptyState.swift */; };
+		552BB9BA2AE023E50034BC3B /* EmptyStateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B12AE023E50034BC3B /* EmptyStateRepresentable.swift */; };
+		552BB9BC2AE023E50034BC3B /* EmptyStateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B32AE023E50034BC3B /* EmptyStateHelper.swift */; };
+		552BB9BD2AE023E50034BC3B /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B42AE023E50034BC3B /* EmptyStateView.swift */; };
+		552BB9BE2AE023E50034BC3B /* EmptyStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B52AE023E50034BC3B /* EmptyStateAction.swift */; };
+		552BB9C22AE064F20034BC3B /* Error+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */; };
+		552BB9C42AE0852B0034BC3B /* EmptyStateBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C32AE0852B0034BC3B /* EmptyStateBackgroundView.swift */; };
 		552FDDB82ADFF11C002EC555 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB72ADFF11C002EC555 /* Episode.swift */; };
 		552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */; };
 		552FDDBE2ADFF1FC002EC555 /* EpisodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */; };
@@ -93,6 +102,15 @@
 		0D374FFBD0815BEB8E549699 /* Pods-RnMUniverse-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse-RnMUniverseTests.release.xcconfig"; path = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
 		107E53013870D15C81E764C0 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverseTests.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverseTests/Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		109559E6CFC91CCD77D9002F /* Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig"; path = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		552BB9AC2AE023E50034BC3B /* EmptyStateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyStateView.xib; sourceTree = "<group>"; };
+		552BB9AE2AE023E50034BC3B /* EmptyStateActionRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateActionRepresentable.swift; sourceTree = "<group>"; };
+		552BB9B02AE023E50034BC3B /* EmptyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		552BB9B12AE023E50034BC3B /* EmptyStateRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateRepresentable.swift; sourceTree = "<group>"; };
+		552BB9B32AE023E50034BC3B /* EmptyStateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateHelper.swift; sourceTree = "<group>"; };
+		552BB9B42AE023E50034BC3B /* EmptyStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		552BB9B52AE023E50034BC3B /* EmptyStateAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateAction.swift; sourceTree = "<group>"; };
+		552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+EmptyState.swift"; sourceTree = "<group>"; };
+		552BB9C32AE0852B0034BC3B /* EmptyStateBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateBackgroundView.swift; sourceTree = "<group>"; };
 		552FDDB72ADFF11C002EC555 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDataSource.swift; sourceTree = "<group>"; };
 		552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRequest.swift; sourceTree = "<group>"; };
@@ -203,9 +221,41 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		552BB9AA2AE023E50034BC3B /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				552BB9AB2AE023E50034BC3B /* Resources */,
+				552BB9AD2AE023E50034BC3B /* Sources */,
+			);
+			path = EmptyState;
+			sourceTree = "<group>";
+		};
+		552BB9AB2AE023E50034BC3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				552BB9AC2AE023E50034BC3B /* EmptyStateView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		552BB9AD2AE023E50034BC3B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				552BB9B02AE023E50034BC3B /* EmptyState.swift */,
+				552BB9B52AE023E50034BC3B /* EmptyStateAction.swift */,
+				552BB9AE2AE023E50034BC3B /* EmptyStateActionRepresentable.swift */,
+				552BB9C32AE0852B0034BC3B /* EmptyStateBackgroundView.swift */,
+				552BB9B32AE023E50034BC3B /* EmptyStateHelper.swift */,
+				552BB9B12AE023E50034BC3B /* EmptyStateRepresentable.swift */,
+				552BB9B42AE023E50034BC3B /* EmptyStateView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		5539D15C2ADB3F2800339C72 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				552BB9AA2AE023E50034BC3B /* EmptyState */,
 				5539D15D2ADB3F4B00339C72 /* StyleSheet.swift */,
 			);
 			path = Support;
@@ -461,6 +511,7 @@
 				5595CB1A2ADF625500FD337B /* Codable+Support.swift */,
 				55F105712ADB19F800979F90 /* Data+Support.swift */,
 				55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */,
+				552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */,
 				55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */,
 				55BDED9F2ADE07FF00705EEE /* UIView+Loader.swift */,
 				5539D15F2ADB40A600339C72 /* UIView+Support.swift */,
@@ -649,6 +700,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552BB9B62AE023E50034BC3B /* EmptyStateView.xib in Resources */,
 				55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */,
 				553661802ADEE7E2004912D8 /* Localizable.xcstrings in Resources */,
 				556EDDAD2ADD8DEB0005DC16 /* CharacterHeaderItemCell.xib in Resources */,
@@ -763,6 +815,7 @@
 				556EDDA42ADD4E9C0005DC16 /* CharacterViewController.swift in Sources */,
 				55BDEDA02ADE07FF00705EEE /* UIView+Loader.swift in Sources */,
 				556EDD9C2ADD4B130005DC16 /* BaseNavigationHelper.swift in Sources */,
+				552BB9B92AE023E50034BC3B /* EmptyState.swift in Sources */,
 				5595CB0D2ADF543C00FD337B /* DataSourceCoder.swift in Sources */,
 				55F105622ADAED7C00979F90 /* Character.swift in Sources */,
 				552FDDB82ADFF11C002EC555 /* Episode.swift in Sources */,
@@ -788,11 +841,17 @@
 				5539D15E2ADB3F4B00339C72 /* StyleSheet.swift in Sources */,
 				5595CB182ADF5F9900FD337B /* DataSourceSerializer.swift in Sources */,
 				556EDDA62ADD4ED90005DC16 /* CharacterViewModel.swift in Sources */,
+				552BB9BE2AE023E50034BC3B /* EmptyStateAction.swift in Sources */,
 				55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */,
+				552BB9BD2AE023E50034BC3B /* EmptyStateView.swift in Sources */,
 				556EDDA02ADD4B730005DC16 /* CharactersNavigationHelper.swift in Sources */,
+				552BB9BA2AE023E50034BC3B /* EmptyStateRepresentable.swift in Sources */,
+				552BB9C42AE0852B0034BC3B /* EmptyStateBackgroundView.swift in Sources */,
 				55F1056C2ADB012700979F90 /* NetworkManager.swift in Sources */,
 				552FDDC22ADFF387002EC555 /* Array+Int.swift in Sources */,
 				55F1055C2ADAED4900979F90 /* CharacterStatus.swift in Sources */,
+				552BB9C22AE064F20034BC3B /* Error+EmptyState.swift in Sources */,
+				552BB9BC2AE023E50034BC3B /* EmptyStateHelper.swift in Sources */,
 				55F1056E2ADB058F00979F90 /* DataSource.swift in Sources */,
 				552FDDBE2ADFF1FC002EC555 /* EpisodeRequest.swift in Sources */,
 				55F105782ADB25E500979F90 /* ErrorResponse.swift in Sources */,
@@ -804,6 +863,7 @@
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
 				55BDEDA42ADE154A00705EEE /* UIViewController+Loader.swift in Sources */,
 				552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */,
+				552BB9B72AE023E50034BC3B /* EmptyStateActionRepresentable.swift in Sources */,
 				55F105642ADAED8F00979F90 /* Info.swift in Sources */,
 				55B770DA2ADB3912008907B9 /* CharacterCollectionItem.swift in Sources */,
 				552FDDC02ADFF215002EC555 /* EpisodeServerDataSource.swift in Sources */,

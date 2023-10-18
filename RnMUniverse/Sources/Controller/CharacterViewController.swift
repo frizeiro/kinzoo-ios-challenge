@@ -15,6 +15,10 @@ class CharacterViewController: NiceTableViewController {
     
     private let viewModel: CharacterViewModel
     
+    private lazy var emptyStateHelper: EmptyStateHelper = {
+        EmptyStateHelper(in: view)
+    }()
+    
     // MARK: - Life Cycle
     
     init(viewModel: CharacterViewModel) {
@@ -40,22 +44,19 @@ class CharacterViewController: NiceTableViewController {
     }
     
     private func setupViewModel() {
-        // TODO: network caching
-        
-        viewModel.bind { [weak self] sections in
-            // TODO: empty state
+        viewModel.bindHandler = { [weak self] sections in
             self?.tableView?.sections = sections
         }
         
-        viewModel.pagination { [weak self] page, item in
-            // TODO: pagination
+        viewModel.errorHandler = { [weak self] error in
+            if let error {
+                self?.emptyStateHelper.states = [error]
+            } else {
+                self?.emptyStateHelper.states = []
+            }
         }
         
-        viewModel.error { [weak self] page, error in
-            // TODO: handle errors
-        }
-        
-        viewModel.loader { [weak self] loading in
+        viewModel.loaderHandler = { [weak self] loading in
             if loading {
                 self?.showLoader()
             } else {
