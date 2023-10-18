@@ -18,8 +18,9 @@ end
 
 target 'RnMUniverse' do
   product_pods
-end
+  
+  target 'RnMUniverseTests' do
+    pod "Nimble"
+  end
 
-target 'RnMUniverseTests' do
-  # Pods for testing
 end

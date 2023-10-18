@@ -1,5 +1,6 @@
 PODS:
   - NiceTable (0.1.0)
+  - Nimble (10.0.0)
   - PromiseKit (8.1.1):
     - PromiseKit/CorePromise (= 8.1.1)
     - PromiseKit/Foundation (= 8.1.1)
@@ -15,11 +16,13 @@ PODS:
 
 DEPENDENCIES:
   - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `develop`)"
+  - Nimble
   - PromiseKit (~> 8)
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Nimble
     - PromiseKit
     - SDWebImage
 
@@ -35,9 +38,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   NiceTable: eaeb018474b5c00b67b50a68814ca339093a6e27
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
 
-PODFILE CHECKSUM: 383b3e258842fcc88d9fc80666eb81f263ae51bd
+PODFILE CHECKSUM: dd4ca56e6897622963519ef81052ce6245823ceb
 
 COCOAPODS: 1.12.0
