@@ -14,6 +14,7 @@ extension String {
         // MARK: - Public Variables
         
         static let empty_state_message = l("empty_state_message")
+        static let empty_state_message_short = l("empty_state_message_short")
         static let empty_state_title = l("empty_state_title")
         static let episodes = l("episodes")
         static let episodes_message = l("episodes_message")

@@ -16,6 +16,10 @@
 		552BB9BE2AE023E50034BC3B /* EmptyStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9B52AE023E50034BC3B /* EmptyStateAction.swift */; };
 		552BB9C22AE064F20034BC3B /* Error+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */; };
 		552BB9C42AE0852B0034BC3B /* EmptyStateBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C32AE0852B0034BC3B /* EmptyStateBackgroundView.swift */; };
+		552BB9C72AE08DB80034BC3B /* EmptyCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C62AE08DB80034BC3B /* EmptyCollectionItem.swift */; };
+		552BB9C92AE08DBC0034BC3B /* EmptyCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9C82AE08DBC0034BC3B /* EmptyCollectionItemCell.swift */; };
+		552BB9CB2AE08DC30034BC3B /* EmptyCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552BB9CA2AE08DC30034BC3B /* EmptyCollectionItemCell.xib */; };
+		552BB9CD2AE0A5330034BC3B /* EmptyState+Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB9CC2AE0A5330034BC3B /* EmptyState+Generics.swift */; };
 		552FDDB82ADFF11C002EC555 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB72ADFF11C002EC555 /* Episode.swift */; };
 		552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */; };
 		552FDDBE2ADFF1FC002EC555 /* EpisodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */; };
@@ -111,6 +115,10 @@
 		552BB9B52AE023E50034BC3B /* EmptyStateAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateAction.swift; sourceTree = "<group>"; };
 		552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+EmptyState.swift"; sourceTree = "<group>"; };
 		552BB9C32AE0852B0034BC3B /* EmptyStateBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateBackgroundView.swift; sourceTree = "<group>"; };
+		552BB9C62AE08DB80034BC3B /* EmptyCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCollectionItem.swift; sourceTree = "<group>"; };
+		552BB9C82AE08DBC0034BC3B /* EmptyCollectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCollectionItemCell.swift; sourceTree = "<group>"; };
+		552BB9CA2AE08DC30034BC3B /* EmptyCollectionItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCollectionItemCell.xib; sourceTree = "<group>"; };
+		552BB9CC2AE0A5330034BC3B /* EmptyState+Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyState+Generics.swift"; sourceTree = "<group>"; };
 		552FDDB72ADFF11C002EC555 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		552FDDBB2ADFF1AD002EC555 /* EpisodeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDataSource.swift; sourceTree = "<group>"; };
 		552FDDBD2ADFF1FC002EC555 /* EpisodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRequest.swift; sourceTree = "<group>"; };
@@ -252,6 +260,16 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		552BB9C52AE08DA00034BC3B /* EmptyCollectionItem */ = {
+			isa = PBXGroup;
+			children = (
+				552BB9C62AE08DB80034BC3B /* EmptyCollectionItem.swift */,
+				552BB9C82AE08DBC0034BC3B /* EmptyCollectionItemCell.swift */,
+				552BB9CA2AE08DC30034BC3B /* EmptyCollectionItemCell.xib */,
+			);
+			path = EmptyCollectionItem;
+			sourceTree = "<group>";
+		};
 		5539D15C2ADB3F2800339C72 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +370,7 @@
 		55B770D72ADB38D7008907B9 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				552BB9C52AE08DA00034BC3B /* EmptyCollectionItem */,
 				556EDDA72ADD8DBC0005DC16 /* CharacterHeaderItem */,
 				55B770D82ADB38E7008907B9 /* CharacterCollectionItem */,
 			);
@@ -511,6 +530,7 @@
 				5595CB1A2ADF625500FD337B /* Codable+Support.swift */,
 				55F105712ADB19F800979F90 /* Data+Support.swift */,
 				55F105732ADB1A2400979F90 /* DateFormatter+Standards.swift */,
+				552BB9CC2AE0A5330034BC3B /* EmptyState+Generics.swift */,
 				552BB9C12AE064F20034BC3B /* Error+EmptyState.swift */,
 				55DCF8122ADC99B100A3251D /* UIImageView+LoadUrl.swift */,
 				55BDED9F2ADE07FF00705EEE /* UIView+Loader.swift */,
@@ -702,6 +722,7 @@
 			files = (
 				552BB9B62AE023E50034BC3B /* EmptyStateView.xib in Resources */,
 				55B770DE2ADB396C008907B9 /* CharacterCollectionItemCell.xib in Resources */,
+				552BB9CB2AE08DC30034BC3B /* EmptyCollectionItemCell.xib in Resources */,
 				553661802ADEE7E2004912D8 /* Localizable.xcstrings in Resources */,
 				556EDDAD2ADD8DEB0005DC16 /* CharacterHeaderItemCell.xib in Resources */,
 				55DCF8172ADD440300A3251D /* Colors.xcassets in Resources */,
@@ -830,6 +851,7 @@
 				55F105532ADAE51900979F90 /* Method.swift in Sources */,
 				5595CB1B2ADF625500FD337B /* Codable+Support.swift in Sources */,
 				55F105722ADB19F800979F90 /* Data+Support.swift in Sources */,
+				552BB9C72AE08DB80034BC3B /* EmptyCollectionItem.swift in Sources */,
 				55DCF80F2ADC37C200A3251D /* CharactersViewModel.swift in Sources */,
 				55F105132ADADA9000979F90 /* AppDelegate.swift in Sources */,
 				55F105762ADB1A7800979F90 /* NetworkError.swift in Sources */,
@@ -845,6 +867,7 @@
 				55F105552ADAE82800979F90 /* CharacterDataSource.swift in Sources */,
 				552BB9BD2AE023E50034BC3B /* EmptyStateView.swift in Sources */,
 				556EDDA02ADD4B730005DC16 /* CharactersNavigationHelper.swift in Sources */,
+				552BB9CD2AE0A5330034BC3B /* EmptyState+Generics.swift in Sources */,
 				552BB9BA2AE023E50034BC3B /* EmptyStateRepresentable.swift in Sources */,
 				552BB9C42AE0852B0034BC3B /* EmptyStateBackgroundView.swift in Sources */,
 				55F1056C2ADB012700979F90 /* NetworkManager.swift in Sources */,
@@ -861,6 +884,7 @@
 				55F1055A2ADAED3100979F90 /* CharacterGender.swift in Sources */,
 				556EDDA92ADD8DDA0005DC16 /* CharacterHeaderItem.swift in Sources */,
 				55F105152ADADA9000979F90 /* SceneDelegate.swift in Sources */,
+				552BB9C92AE08DBC0034BC3B /* EmptyCollectionItemCell.swift in Sources */,
 				55BDEDA42ADE154A00705EEE /* UIViewController+Loader.swift in Sources */,
 				552FDDBC2ADFF1AD002EC555 /* EpisodeDataSource.swift in Sources */,
 				552BB9B72AE023E50034BC3B /* EmptyStateActionRepresentable.swift in Sources */,

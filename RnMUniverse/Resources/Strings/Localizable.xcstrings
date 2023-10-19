@@ -46,8 +46,25 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Se você está conectado à internet, podemos estar com algum problema nos dados. Sentimos muito. :(\n\nSe você não está desconectado, esta informação pode não ter sido acessada anteriormente, por isso ainda não está disponível offline."
+            "state" : "translated",
+            "value" : "Se você está conectado à internet, podemos estar com algum problema nos dados. Sentimos muito. :(\n\nSe você está desconectado, esta informação pode não ter sido acessada anteriormente, por isso ainda não está disponível offline."
+          }
+        }
+      }
+    },
+    "empty_state_message_short" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorry. Something isn't right with our data or your internet connection. :("
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desculpe. Algo não está certo com nossos dados ou com a sua conexão com a internet. :("
           }
         }
       }

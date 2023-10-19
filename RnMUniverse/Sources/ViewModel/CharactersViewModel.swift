@@ -24,8 +24,23 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
     private var items = [CharacterCollectionItem]()
     
     private var sections: [NiceCollectionSection] {
-        return sections(items)
+        return [
+            charactersSection,
+            emptySection
+        ].compactMap { $0 }
     }
+    
+    private var charactersSection: NiceCollectionSection? {
+        guard !items.isEmpty else { return nil }
+        return section(items)
+    }
+    
+    private var emptySection: NiceCollectionSection? {
+        guard let emptyItem else { return nil }
+        return section([emptyItem])
+    }
+    
+    private var emptyItem: EmptyCollectionItem?
     
     // MARK: - Public Methods
         
@@ -55,8 +70,10 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
             self.handle(response)
             self.paginationHandler?(self.sections, self.hasMorePages)
         }.catch { error in
-            // TODO: Handle error on load more
+            self.handlePaginationError(error)
+            self.paginationHandler?(self.sections, false)
         }.finally {
+            self.loaderHandler?(false)
             self.isLoadingMore = false
         }
     }
@@ -77,6 +94,17 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
             let resultsItems = results.compactMap { item($0) }
             items.append(contentsOf: resultsItems)
         }
+        
+        emptyItem = nil
+    }
+    
+    private func handlePaginationError(_ error: Error) {
+        let emptyState: EmptyState = .genericShort { [weak self] in
+            self?.loaderHandler?(true)
+            self?.fetchNextPage()
+        }
+        
+        emptyItem = EmptyCollectionItem(emptyState)
     }
     
     private func item(
@@ -91,10 +119,13 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
         return item
     }
     
-    private func sections(
-        _ items: [CharacterCollectionItem]
-    ) -> [NiceCollectionSection] {
-        return [NiceCollectionSection(items, style: .noHeader)]
+    private func section(
+        _ items: [NiceCollectionItem]
+    ) -> NiceCollectionSection {
+        return NiceCollectionSection(
+            items,
+            style: .noHeader
+        )
     }
     
 }
