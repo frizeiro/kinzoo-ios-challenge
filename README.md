@@ -1,36 +1,24 @@
 # RNM UNIVERSE PROJECT #
 
-Build an iOS project with the given public API below
+### Kinzoo iOS Challenge ###
 
-### The project will consist of  ###
+An iOS app with a list and details of characters.
 
-* Screen A will contain a list of characters and each character card containing the character's name and picture
-* Screen B, which will be called by clicking on a card on screen A, will display further information about the selected character such as name, picture, status, species and a list or text containing the number of each episode (Not to be confused with the number of episodes in total) said character appears on
+### Nice to know ###
 
-### Requirements ###
+* I believe that I've built this project following all the requested requirements, except for the "Universal link support".
+* I've used some third-party libraries and I've developed other points manually, such as the network layer, for example.
+* I took advantage of this opportunity to extract a local target from one of my projects for a Pod. A library that I developed a few years ago with the desire to make UICollectionView and UITableView easier to use.
+* I tried to address some points that were not directly requested, but that I understand are fundamental for a good app, such as icons, fonts, responsiveness, dark mode, location, loader and error handling, for example.
+* I chose to use CocoaPods for all libs and not mix in with SPM.
+* I've already used Rswift and SwiftGen to generate typed resources, however, I had difficulties configuring both in Xcode 15 with the new String Catalog (I got SwiftGen for the other resources, but not for strings). As I wouldn't use it for the others, since Xcode is creating some now, I preferred not to use it.
+* I preferred to use Promise instead of async/await, as I see a more pleasant syntax and I'm more used to it at the moment.
 
-* Must be written in Swift
-* Must use Xcode 14 or later
-* Must use UIKit
-* Should use a well known async image loading library
-* Should use SPM or Cocoapods for dependency management
-* Should follow Apple's Human Interface Guidelines
+### Some Prints ###
 
-### Nice-to-haves ###
-
-* Decoupled navigation
-* Unit testing
-* Universal link support
-* Offline support
-
-### API ###
-
-* https://rickandmortyapi.com/api/character
-
-### Docs ###
-
-* https://rickandmortyapi.com/documentation
-
-### Submission ###
-
-* Fork this repository on GitHub and send the link through e-mail
+<img src="README_FILES/Screenshot01.png" width=400 />
+<img src="README_FILES/Screenshot02.png" width=400 />
+<img src="README_FILES/Screenshot03.png" width=400 />
+<img src="README_FILES/Screenshot04.png" width=400 />
+<img src="README_FILES/Screenshot05.png" width=400 />
+<img src="README_FILES/Screenshot06.png" width=400 />
