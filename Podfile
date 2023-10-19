@@ -6,7 +6,7 @@ platform :ios, '12.0'
 install! 'cocoapods', :deterministic_uuids => false
 
 def nicetable_location
-  { :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'develop' }
+  { :git => 'git@github.com:frizeiro/nice-table.git', :branch => 'main' }
 #  { :path => '../nice-table' }
 end
 
@@ -20,8 +20,10 @@ target 'RnMUniverse' do
   product_pods
   
   target 'RnMUniverseTests' do
+    inherit! :search_paths
+    
     pod "Nimble"
     pod 'OHHTTPStubs/Swift'
   end
-
+  
 end

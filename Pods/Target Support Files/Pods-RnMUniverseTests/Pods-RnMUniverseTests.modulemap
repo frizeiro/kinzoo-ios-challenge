@@ -1,0 +1,6 @@
+module Pods_RnMUniverseTests {
+  umbrella header "Pods-RnMUniverseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

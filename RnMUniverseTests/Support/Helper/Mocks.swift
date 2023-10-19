@@ -29,8 +29,11 @@ class Mocks {
         type: String = "json",
         bundle: Bundle = bundle
     ) -> Data {
-        let path = bundle.path(forResource: fileName, ofType: type)
-        return try! Data(contentsOf: URL(fileURLWithPath: path!))
+        let name = fileName.replacingOccurrences(of: ".json", with: "")
+        guard let path = bundle.path(forResource: name, ofType: type) else {
+            fatalError("Mock \"\(fileName)\" not foud.")
+        }
+        return try! Data(contentsOf: URL(fileURLWithPath: path))
     }
     
 }

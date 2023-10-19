@@ -335,61 +335,47 @@
 		46EB2E00002F10 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00002F00 /* SDWebImage-dummy.m */; };
 		46EB2E00002FF0 /* Pods-RnMUniverse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00002FE0 /* Pods-RnMUniverse-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00003040 /* Pods-RnMUniverse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00003030 /* Pods-RnMUniverse-dummy.m */; };
-		46EB2E00003120 /* Pods-RnMUniverse-RnMUniverseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00003110 /* Pods-RnMUniverse-RnMUniverseTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00003170 /* Pods-RnMUniverse-RnMUniverseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00003160 /* Pods-RnMUniverse-RnMUniverseTests-dummy.m */; };
+		46EB2E00003120 /* Pods-RnMUniverseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00003110 /* Pods-RnMUniverseTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00003160 /* Pods-RnMUniverseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00003150 /* Pods-RnMUniverseTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00003180 /* PBXContainerItemProxy */ = {
+		46EB2E00003170 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AFFD20DDF0254BB37ABE254AB28BA52B;
 			remoteInfo = NiceTable;
 		};
-		46EB2E000031A0 /* PBXContainerItemProxy */ = {
+		46EB2E00003190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
 			remoteInfo = PromiseKit;
 		};
-		46EB2E000031C0 /* PBXContainerItemProxy */ = {
+		46EB2E000031B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
 			remoteInfo = SDWebImage;
 		};
-		46EB2E000031E0 /* PBXContainerItemProxy */ = {
+		46EB2E000031D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AFFD20DDF0254BB37ABE254AB28BA52B;
-			remoteInfo = NiceTable;
+			remoteGlobalIDString = 1728ACAD2F953D12A09E4FC7B111234F;
+			remoteInfo = "Pods-RnMUniverse";
 		};
-		46EB2E00003200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
-			remoteInfo = PromiseKit;
-		};
-		46EB2E00003220 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E00000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
-			remoteInfo = SDWebImage;
-		};
-		46EB2E00003240 /* PBXContainerItemProxy */ = {
+		46EB2E000031F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
 			remoteInfo = Nimble;
 		};
-		46EB2E00003260 /* PBXContainerItemProxy */ = {
+		46EB2E00003210 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -763,18 +749,17 @@
 		46EB2E00003010 /* Pods-RnMUniverse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverse-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E00003020 /* Pods-RnMUniverse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverse-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E00003030 /* Pods-RnMUniverse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverse-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000030E0 /* Pods-RnMUniverse-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000030F0 /* Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00003100 /* Pods-RnMUniverse-RnMUniverseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RnMUniverse-RnMUniverseTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00003110 /* Pods-RnMUniverse-RnMUniverseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RnMUniverse-RnMUniverseTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00003130 /* Pods-RnMUniverse-RnMUniverseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RnMUniverse-RnMUniverseTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00003140 /* Pods-RnMUniverse-RnMUniverseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverse-RnMUniverseTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00003150 /* Pods-RnMUniverse-RnMUniverseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverse-RnMUniverseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00003160 /* Pods-RnMUniverse-RnMUniverseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverse-RnMUniverseTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000030E0 /* Pods-RnMUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000030F0 /* Pods-RnMUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RnMUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00003100 /* Pods-RnMUniverseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RnMUniverseTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00003110 /* Pods-RnMUniverseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RnMUniverseTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00003130 /* Pods-RnMUniverseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RnMUniverseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00003140 /* Pods-RnMUniverseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RnMUniverseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00003150 /* Pods-RnMUniverseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RnMUniverseTests-dummy.m"; sourceTree = "<group>"; };
+		816F7CF9E3F22744496E5650A414CE6A /* Pods-RnMUniverseTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-RnMUniverseTests"; path = "libPods-RnMUniverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SDWebImage; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE263041362D074978BB3B577DF0A05 /* Nimble */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Nimble; path = libNimble.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF23A0641CD5F6E238CBE878E6F7C072 /* NiceTable */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = NiceTable; path = libNiceTable.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F77996694CF9A63C1B18F45EE082C60F /* Pods-RnMUniverse-RnMUniverseTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-RnMUniverse-RnMUniverseTests"; path = "libPods-RnMUniverse-RnMUniverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -848,7 +833,7 @@
 				BAE263041362D074978BB3B577DF0A05 /* Nimble */,
 				17E33041B314FA837A3CAEB9DF3CDE9F /* OHHTTPStubs */,
 				1DF506B2CB11806898558142A708204B /* Pods-RnMUniverse */,
-				F77996694CF9A63C1B18F45EE082C60F /* Pods-RnMUniverse-RnMUniverseTests */,
+				816F7CF9E3F22744496E5650A414CE6A /* Pods-RnMUniverseTests */,
 				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 			);
@@ -866,7 +851,7 @@
 			isa = PBXGroup;
 			children = (
 				46EB2E00002FA0 /* Pods-RnMUniverse */,
-				46EB2E000030D0 /* Pods-RnMUniverse-RnMUniverseTests */,
+				46EB2E000030D0 /* Pods-RnMUniverseTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1416,20 +1401,19 @@
 			path = "Target Support Files/Pods-RnMUniverse";
 			sourceTree = "<group>";
 		};
-		46EB2E000030D0 /* Pods-RnMUniverse-RnMUniverseTests */ = {
+		46EB2E000030D0 /* Pods-RnMUniverseTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00003100 /* Pods-RnMUniverse-RnMUniverseTests.modulemap */,
-				46EB2E00003150 /* Pods-RnMUniverse-RnMUniverseTests-acknowledgements.markdown */,
-				46EB2E00003140 /* Pods-RnMUniverse-RnMUniverseTests-acknowledgements.plist */,
-				46EB2E00003160 /* Pods-RnMUniverse-RnMUniverseTests-dummy.m */,
-				46EB2E00003130 /* Pods-RnMUniverse-RnMUniverseTests-resources.sh */,
-				46EB2E00003110 /* Pods-RnMUniverse-RnMUniverseTests-umbrella.h */,
-				46EB2E000030F0 /* Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig */,
-				46EB2E000030E0 /* Pods-RnMUniverse-RnMUniverseTests.release.xcconfig */,
+				46EB2E00003100 /* Pods-RnMUniverseTests.modulemap */,
+				46EB2E00003140 /* Pods-RnMUniverseTests-acknowledgements.markdown */,
+				46EB2E00003130 /* Pods-RnMUniverseTests-acknowledgements.plist */,
+				46EB2E00003150 /* Pods-RnMUniverseTests-dummy.m */,
+				46EB2E00003110 /* Pods-RnMUniverseTests-umbrella.h */,
+				46EB2E000030F0 /* Pods-RnMUniverseTests.debug.xcconfig */,
+				46EB2E000030E0 /* Pods-RnMUniverseTests.release.xcconfig */,
 			);
-			name = "Pods-RnMUniverse-RnMUniverseTests";
-			path = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests";
+			name = "Pods-RnMUniverseTests";
+			path = "Target Support Files/Pods-RnMUniverseTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1588,7 +1572,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00003120 /* Pods-RnMUniverse-RnMUniverseTests-umbrella.h in Headers */,
+				46EB2E00003120 /* Pods-RnMUniverseTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1606,9 +1590,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00003190 /* PBXTargetDependency */,
-				46EB2E000031B0 /* PBXTargetDependency */,
-				46EB2E000031D0 /* PBXTargetDependency */,
+				46EB2E00003180 /* PBXTargetDependency */,
+				46EB2E000031A0 /* PBXTargetDependency */,
+				46EB2E000031C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-RnMUniverse";
 			productName = "Pods-RnMUniverse";
@@ -1668,6 +1652,26 @@
 			productReference = 002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */;
 			productType = "com.apple.product-type.library.static";
 		};
+		A0FABCE1C46CE6479D39C62AFFD3BA87 /* Pods-RnMUniverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00003060 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */;
+			buildPhases = (
+				46EB2E000030A0 /* Headers */,
+				46EB2E000030B0 /* Sources */,
+				46EB2E000030C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00003200 /* PBXTargetDependency */,
+				46EB2E00003220 /* PBXTargetDependency */,
+				46EB2E000031E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RnMUniverseTests";
+			productName = "Pods-RnMUniverseTests";
+			productReference = 816F7CF9E3F22744496E5650A414CE6A /* Pods-RnMUniverseTests */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A983A2D06C5B6AA3D6ABA5CCC0A16725 /* OHHTTPStubs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E00001EB0 /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */;
@@ -1704,28 +1708,6 @@
 			productReference = EF23A0641CD5F6E238CBE878E6F7C072 /* NiceTable */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F5982A2C4490C9D527E8029F22568282 /* Pods-RnMUniverse-RnMUniverseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00003060 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse-RnMUniverseTests" */;
-			buildPhases = (
-				46EB2E000030A0 /* Headers */,
-				46EB2E000030B0 /* Sources */,
-				46EB2E000030C0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E000031F0 /* PBXTargetDependency */,
-				46EB2E00003250 /* PBXTargetDependency */,
-				46EB2E00003270 /* PBXTargetDependency */,
-				46EB2E00003210 /* PBXTargetDependency */,
-				46EB2E00003230 /* PBXTargetDependency */,
-			);
-			name = "Pods-RnMUniverse-RnMUniverseTests";
-			productName = "Pods-RnMUniverse-RnMUniverseTests";
-			productReference = F77996694CF9A63C1B18F45EE082C60F /* Pods-RnMUniverse-RnMUniverseTests */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1752,7 +1734,7 @@
 				6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */,
 				A983A2D06C5B6AA3D6ABA5CCC0A16725 /* OHHTTPStubs */,
 				1728ACAD2F953D12A09E4FC7B111234F /* Pods-RnMUniverse */,
-				F5982A2C4490C9D527E8029F22568282 /* Pods-RnMUniverse-RnMUniverseTests */,
+				A0FABCE1C46CE6479D39C62AFFD3BA87 /* Pods-RnMUniverseTests */,
 				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 			);
@@ -2126,60 +2108,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00003170 /* Pods-RnMUniverse-RnMUniverseTests-dummy.m in Sources */,
+				46EB2E00003160 /* Pods-RnMUniverseTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00003190 /* PBXTargetDependency */ = {
+		46EB2E00003180 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NiceTable;
 			target = AFFD20DDF0254BB37ABE254AB28BA52B /* NiceTable */;
-			targetProxy = 46EB2E00003180 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00003170 /* PBXContainerItemProxy */;
 		};
-		46EB2E000031B0 /* PBXTargetDependency */ = {
+		46EB2E000031A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
 			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 46EB2E000031A0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00003190 /* PBXContainerItemProxy */;
 		};
-		46EB2E000031D0 /* PBXTargetDependency */ = {
+		46EB2E000031C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 46EB2E000031C0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000031B0 /* PBXContainerItemProxy */;
 		};
-		46EB2E000031F0 /* PBXTargetDependency */ = {
+		46EB2E000031E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = NiceTable;
-			target = AFFD20DDF0254BB37ABE254AB28BA52B /* NiceTable */;
-			targetProxy = 46EB2E000031E0 /* PBXContainerItemProxy */;
+			name = "Pods-RnMUniverse";
+			target = 1728ACAD2F953D12A09E4FC7B111234F /* Pods-RnMUniverse */;
+			targetProxy = 46EB2E000031D0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00003210 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PromiseKit;
-			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 46EB2E00003200 /* PBXContainerItemProxy */;
-		};
-		46EB2E00003230 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 46EB2E00003220 /* PBXContainerItemProxy */;
-		};
-		46EB2E00003250 /* PBXTargetDependency */ = {
+		46EB2E00003200 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nimble;
 			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
-			targetProxy = 46EB2E00003240 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000031F0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00003270 /* PBXTargetDependency */ = {
+		46EB2E00003220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OHHTTPStubs;
 			target = A983A2D06C5B6AA3D6ABA5CCC0A16725 /* OHHTTPStubs */;
-			targetProxy = 46EB2E00003260 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00003210 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2606,7 +2576,7 @@
 		};
 		46EB2E00003070 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000030E0 /* Pods-RnMUniverse-RnMUniverseTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000030E0 /* Pods-RnMUniverseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2615,7 +2585,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RnMUniverseTests/Pods-RnMUniverseTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2629,7 +2599,7 @@
 		};
 		46EB2E00003080 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000030F0 /* Pods-RnMUniverse-RnMUniverseTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000030F0 /* Pods-RnMUniverseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2638,7 +2608,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RnMUniverse-RnMUniverseTests/Pods-RnMUniverse-RnMUniverseTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RnMUniverseTests/Pods-RnMUniverseTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2715,7 +2685,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00003060 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverse-RnMUniverseTests" */ = {
+		46EB2E00003060 /* Build configuration list for PBXNativeTarget "Pods-RnMUniverseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00003080 /* Debug */,
