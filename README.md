@@ -13,12 +13,19 @@ An iOS app with a list and details of characters.
 * I chose to use CocoaPods for all libs and not mix in with SPM.
 * I've already used Rswift and SwiftGen to generate typed resources, however, I had difficulties configuring both in Xcode 15 with the new String Catalog (I got SwiftGen for the other resources, but not for strings). As I wouldn't use it for the others, since Xcode is creating some now, I preferred not to use it.
 * I preferred to use Promise instead of async/await, as I see a more pleasant syntax and I'm more used to it at the moment.
+* ViewModels and DataSource could have a parameter reference relationship with each other. Transforming the DataSource into a protocol could even be used as mocked in tests, but I believe that a Stub approach is easier and clean than the first one to coding.
+* I only made 2 test cases as examples, one for Model and one for the ViewModel. I believe it's not a problem.
 
 ### Some Prints ###
+
+## Light mode ##
 
 <img src="README_FILES/Screenshot01.png" width=400 />
 <img src="README_FILES/Screenshot02.png" width=400 />
 <img src="README_FILES/Screenshot03.png" width=400 />
 <img src="README_FILES/Screenshot04.png" width=400 />
+
+## Dark mode ##
+
 <img src="README_FILES/Screenshot05.png" width=400 />
 <img src="README_FILES/Screenshot06.png" width=400 />
