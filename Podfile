@@ -21,6 +21,7 @@ target 'RnMUniverse' do
   
   target 'RnMUniverseTests' do
     pod "Nimble"
+    pod 'OHHTTPStubs/Swift'
   end
 
 end

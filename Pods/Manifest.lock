@@ -1,6 +1,19 @@
 PODS:
   - NiceTable (0.1.0)
   - Nimble (10.0.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
   - PromiseKit (8.1.1):
     - PromiseKit/CorePromise (= 8.1.1)
     - PromiseKit/Foundation (= 8.1.1)
@@ -17,12 +30,14 @@ PODS:
 DEPENDENCIES:
   - "NiceTable (from `git@github.com:frizeiro/nice-table.git`, branch `develop`)"
   - Nimble
+  - OHHTTPStubs/Swift
   - PromiseKit (~> 8)
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Nimble
+    - OHHTTPStubs
     - PromiseKit
     - SDWebImage
 
@@ -39,9 +54,10 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   NiceTable: eaeb018474b5c00b67b50a68814ca339093a6e27
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
 
-PODFILE CHECKSUM: e14c14810059e65b588478c5822e1d30297a1139
+PODFILE CHECKSUM: 857ea589b937b53003ad801bc1626bc7c5674005
 
 COCOAPODS: 1.12.0
