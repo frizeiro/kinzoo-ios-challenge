@@ -67,8 +67,8 @@ class CharactersViewModel: BaseViewModel<Character, NiceCollectionSection> {
         errorHandler?(nil)
         
         DataSource.shared.character.fetch(page: nextPage, name: nil).done { response in
-            self.handle(response)
-            self.paginationHandler?(self.sections, self.hasMorePages)
+            self.handlePaginationError(NetworkError.emptyResponse)
+            self.paginationHandler?(self.sections, false)
         }.catch { error in
             self.handlePaginationError(error)
             self.paginationHandler?(self.sections, false)

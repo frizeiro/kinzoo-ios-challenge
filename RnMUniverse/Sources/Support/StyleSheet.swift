@@ -45,6 +45,7 @@ extension NiceSectionStyle {
     static var withFooter: NiceSectionStyle {
         var style: NiceSectionStyle = .shared
         style.isFooterHidden = false
+        style.footerHeight = UITableView.automaticDimension
         return style
     }
     

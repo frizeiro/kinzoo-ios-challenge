@@ -1,5 +1,5 @@
 PODS:
-  - NiceTable (0.1.0)
+  - NiceTable (0.2.0)
   - Nimble (10.0.0)
   - OHHTTPStubs/Core (9.1.0)
   - OHHTTPStubs/Default (9.1.0):
@@ -48,11 +48,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NiceTable:
-    :commit: c5f426c8358ed568a20784308f8bffbd69a2a964
+    :commit: 3d1f065c46b0ccc9cee7a05083dd7af1a247198d
     :git: "git@github.com:frizeiro/nice-table.git"
 
 SPEC CHECKSUMS:
-  NiceTable: eaeb018474b5c00b67b50a68814ca339093a6e27
+  NiceTable: 8b854382ed9911492e220875148c5a6e8ed36969
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
@@ -60,4 +60,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 762117535549337f3f9a2180f545b57e30b8f86e
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.15.2
